@@ -1,0 +1,293 @@
+{
+  "meta": { "lastUpdated": "2026-08-16", "dataVersion": 4 },
+  "stats": ["11", "8", "6", "300+"],
+  "stats_label_zh": ["SCI/SSCI 论文", "中科院一区/Top", "在研项目", "科研经费(万)"],
+  "stats_label_en": ["Papers", "Q1/Top", "Projects", "Funding(10K)"],
+  "brand": {
+    "slogan_zh": "以中医智慧，解心灵之结",
+    "slogan_en": "Caring with TCM Wisdom, Resolving the Knots of the Mind",
+    "keywords_zh": ["传承", "融合", "守护"],
+    "keywords_en": ["Heritage", "Integration", "Care"],
+    "story_zh": "我们相信，中医智慧与现代神经科学并非两条平行线——taVNS 正是二者的交汇点。用科学验证传统，用传统滋养科学。",
+    "story_en": "We believe TCM wisdom and modern neuroscience are not parallel lines. taVNS is where they meet.",
+    "cta_zh": "探索我们的研究 →",
+    "cta_en": "Explore Our Research →",
+    "hero_hint_zh": "↓ 向下滚动，了解 taVNS、成瘾干预与中医心理物理研究",
+    "hero_hint_en": "↓ Scroll down to explore taVNS, addiction intervention & TCM psychophysical research"
+  },
+  "lab": {
+    "name_zh": "查汝晶课题组",
+    "name_en": "Zha Rujing Lab",
+    "dept_zh": "安徽中医药大学人文与国际教育交流学院",
+    "dept_en": "AHTCM · Psychology"
+  },
+  "pi": {
+    "name": "查汝晶",
+    "name_en": "Rujing Zha",
+    "title_zh": "校聘教授 · 硕士生导师",
+    "title_en": "Professor · Master Supervisor",
+    "bio_zh": "查汝晶，校聘教授，硕士生导师，安徽中医药大学人文与国际教育交流学院学科与科研秘书。亚洲物质滥用研究会心理治疗专委会副秘书长，中国药物滥用防治协会行为成瘾专委会常委，安徽省社科界青年学人导师，安徽省心理卫生协会认知行为治疗专委会常委，Plos Mental Health 学术编辑，安徽省心理健康教育学会理事。主要研究方向为中医心理物理干预，迄今以第一/通讯作者在 Molecular Psychiatry、Computers in Human Behavior、Journal of Behavioral Addictions、NeuroImage 等国际知名期刊发表 SCI/SSCI 论文 11 篇（其中中科院一区/Top 8 篇）。目前主持国家自然科学基金、教育部人文社会科学研究基金、安徽省自然科学基金等多项科研项目。主要讲授《大学生心理健康教育》《网络心理学》《高级心理统计》等课程。",
+    "bio_en": "TCM psychophysical intervention research. 11 SCI/SSCI papers, 8 in CAS Q1/Top.",
+    "tags_zh": ["硕士生导师", "中医心理物理干预", "神经调控", "行为成瘾"],
+    "tags_en": ["Professor", "TCM Psychophysical", "Neuromodulation", "Addiction"],
+    "honors_zh": ["安徽省社科界‘优青’人才", "安徽省社科界青年学术论坛百位优秀青年学者", "中国科学技术大学墨子杰出青年特资津贴", "国际人脑图谱学会（OHBM）Merit Abstract Award", "观察者网年度科创人物", "International Research Award And Honors Best Researcher Award", "安徽省社会心理学学会学术年会论文二等奖"],
+    "honors_en": ["Excellent Young Scholar", "MOZI Award", "OHBM Merit"],
+    "cv_zh": "亚洲物质滥用研究会心理治疗专委会副秘书长；中国药物滥用防治协会行为成瘾专委会常委；安徽省社科界青年学人导师；安徽省心理卫生协会认知行为治疗专委会常委；Plos Mental Health 学术编辑；安徽省心理健康教育学会理事。指导学生获安徽省心理卫生协会学术年会应用心理案例赛道三等奖。",
+    "cv_en": "Secretary-General, Psychotherapy Committee, AASRA; Academic Editor, PLOS Mental Health."
+  },
+  "research": [
+    {
+      "icon": "🎧",
+      "q_zh": "中医经皮耳穴迷走神经刺激能否调控成瘾与 ADHD？",
+      "q_en": "Can taVNS modulate addiction and ADHD?",
+      "bg_zh": "探究中医经皮耳穴迷走神经刺激结合心理物理干预，对成瘾、注意缺陷与多动障碍等精神类疾病的调控作用。",
+      "bg_en": "Exploring taVNS combined with psychophysical interventions for addiction, ADHD and other psychiatric disorders.",
+      "s_zh": "为精神类疾病提供无创、可及的中西医结合干预新路径。",
+      "s_en": "Non-invasive integrative interventions for psychiatric disorders."
+    },
+    {
+      "icon": "🧠",
+      "q_zh": "中医针灸理论如何影响情绪、冲动与语言功能？",
+      "q_en": "How does acupuncture theory affect emotion, impulse and language?",
+      "bg_zh": "运用实验心理学方法及神经科学技术，揭示中医针灸理论与技术对人类情绪、冲动控制、语言功能的影响机制。",
+      "bg_en": "Using experimental psychology and neuroscience to reveal how TCM acupuncture shapes emotion, impulse control and language.",
+      "s_zh": "为中医理论提供现代神经科学证据，推动中西医深度对话。",
+      "s_en": "Neuroscientific evidence for TCM theory, advancing East-West dialogue."
+    }
+  ],
+  "members": [
+    {
+      "name": "查汝晶",
+      "name_en": "Rujing Zha",
+      "role_zh": "导师",
+      "role_en": "Mentor / PI",
+      "bio_zh": "校聘教授，硕士生导师。亚洲物质滥用研究会心理治疗专委会副秘书长，中国药物滥用防治协会行为成瘾专委会常委，安徽省社科界青年学人导师。主要研究方向为中医心理物理干预，以第一/通讯作者在 Molecular Psychiatry、NeuroImage 等期刊发表 SCI/SSCI 论文 11 篇（中科院一区/Top 8 篇）。",
+      "bio_en": "Professor and Master Supervisor. Secretary-General of AASRA Psychotherapy Committee. Research focuses on TCM psychophysical intervention, with 11 SCI/SSCI papers as first/corresponding author.",
+      "research_zh": "1. 中医经皮耳穴迷走神经刺激结合心理物理干预对成瘾、ADHD 等精神类疾病的调控作用；2. 运用实验心理学与神经科学技术揭示中医针灸理论对情绪、冲动控制、语言功能的影响机制。",
+      "research_en": "1. taVNS combined with psychophysical intervention for addiction and ADHD; 2. Experimental psychology and neuroscience approaches to TCM acupuncture effects on emotion, impulse control and language.",
+      "pubs_zh": "代表性论文：Molecular Psychiatry (2025); Computers in Human Behavior (2022); NeuroImage (2024); Journal of Behavioral Addictions (2023); Human Brain Mapping 多篇。",
+      "pubs_en": "Representative publications in Molecular Psychiatry, Computers in Human Behavior, NeuroImage, Journal of Behavioral Addictions, and Human Brain Mapping.",
+      "email": "zharj@ahtcm.edu.cn"
+    },
+    {
+      "name": "欢迎加入",
+      "name_en": "Join Us",
+      "role_zh": "研究生",
+      "role_en": "Student"
+    }
+  ],
+  "projects": [
+    {
+      "name_zh": "科技部'十四五'国家重点研发计划",
+      "name_en": "National Key R&D Program of China",
+      "meta_zh": "2024.12-2029.11 · 1584万元（个人承担160万元） · 项目骨干",
+      "meta_en": "2024.12-2029.11 · 15.84M CNY (personal 1.6M) · Key Member",
+      "badge_zh": "骨干",
+      "badge_en": "Key"
+    },
+    {
+      "name_zh": "国家自然科学基金委员会青年科学基金项目",
+      "name_en": "NSFC Youth Science Fund",
+      "meta_zh": "2025.01-2027.12 · 30万元 · 主持",
+      "meta_en": "2025.01-2027.12 · 300K CNY · PI",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "name_zh": "教育部人文社会科学研究青年基金",
+      "name_en": "MOE Humanities & Social Sciences Youth Fund",
+      "meta_zh": "2024.05-2027.03 · 8万元 · 主持",
+      "meta_en": "2024.05-2027.03 · 80K CNY · PI",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "name_zh": "安徽省自然科学基金青年项目",
+      "name_en": "Anhui Provincial Natural Science Youth Fund",
+      "meta_zh": "2024.09-2026.08 · 8万元 · 主持",
+      "meta_en": "2024.09-2026.08 · 80K CNY · PI",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "name_zh": "安徽中医药大学博士科研启动经费",
+      "name_en": "AHTCM Doctoral Research Startup Fund",
+      "meta_zh": "2026.01-2030.12 · 50万元 · 主持",
+      "meta_en": "2026.01-2030.12 · 500K CNY · PI",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "name_zh": "中国科学技术大学语音及语言信息处理国家工程研究中心校内合作课题",
+      "name_en": "USTC iFLYTEK Joint Project",
+      "meta_zh": "35万元 · 主持",
+      "meta_en": "350K CNY · PI",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "name_zh": "青少年心理健康与危机智能干预安徽省哲学社会科学重点实验室重大项目",
+      "name_en": "Anhui Key Lab of Youth Mental Health Major Project",
+      "meta_zh": "2024.03-2026.02 · 5万元 · 主持",
+      "meta_en": "2024.03-2026.02 · 50K CNY · PI",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "name_zh": "安徽省新时代育人质量工程项目（研究生教育）专业学位研究生教学案例库",
+      "name_en": "Anhui Teaching Case Library Project",
+      "meta_zh": "2025.09-2027.09 · 主持",
+      "meta_en": "2025.09-2027.09 · PI",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    }
+  ],
+  "pubs": [
+    {
+      "authors": "Zuo H., Zhang W., ... Zha R.*, Zhang Z.*, Zhang X.*",
+      "title": "Transcranial direct current stimulation restores addictive behavior via prefrontal-striatal circuit",
+      "title_en": "tDCS restores addictive behavior via prefrontal-striatal circuit",
+      "journal": "Molecular Psychiatry, 2025",
+      "tag": "SCI Q1 Top",
+      "highlight_zh": "首次揭示 tDCS 经前额-纹状体环路修复成瘾行为",
+      "highlight_en": "First to show tDCS restores addiction via prefrontal-striatal circuit",
+      "link": "https://doi.org/10.1038/s41380-025-03249-w"
+    },
+    {
+      "authors": "Zha R.#, Tao R.#, ... Zhang X.*, Liang P.*, Rao H.",
+      "title": "Impulse control differentiates Internet gaming disorder from non-disordered but heavy Internet gaming use: Evidence from multiple behavioral and multimodal neuroimaging data",
+      "title_en": "Impulse control differentiates IGD from heavy use",
+      "journal": "Computers in Human Behavior, 2022",
+      "tag": "SSCI Q1 Top",
+      "highlight_zh": "冲动控制是区分游戏成瘾与重度玩家的关键",
+      "highlight_en": "Impulse control differentiates IGD from heavy use",
+      "link": "https://doi.org/10.1016/j.chb.2022.107184"
+    },
+    {
+      "authors": "Jin C.#, Li Y.#, ... Zhang X.*, Zha R.*",
+      "title": "The dorsomedial prefrontal cortex promotes self-control by inhibiting the egocentric perspective",
+      "title_en": "dmPFC promotes self-control by inhibiting egocentric perspective",
+      "journal": "NeuroImage, 2024",
+      "tag": "SCI Q1 Top",
+      "highlight_zh": "背内侧前额叶通过抑制自我中心视角促进自控",
+      "highlight_en": "dmPFC promotes self-control by inhibiting egocentric perspective",
+      "link": "https://doi.org/10.1016/j.neuroimage.2024.120879"
+    },
+    {
+      "authors": "Hong W.#, Liang P.#, ... Tao R.*, Zha R.*, Zhang X.*",
+      "title": "Reduced loss aversion in value-based decision-making and edge-centric functional connectivity in patients with internet gaming disorder",
+      "title_en": "Reduced loss aversion in IGD",
+      "journal": "Journal of Behavioral Addictions, 2023",
+      "tag": "SCI Q1",
+      "highlight_zh": "网络游戏成瘾患者损失厌恶降低与功能连接异常",
+      "highlight_en": "Reduced loss aversion in IGD patients",
+      "link": "https://doi.org/10.1556/2006.2023.00014"
+    },
+    {
+      "authors": "Fan C., Zha R.*, ... Pan Y.*, Zhang X.*",
+      "title": "Altered white matter functional network in nicotine addiction",
+      "title_en": "Altered white matter network in nicotine addiction",
+      "journal": "Psychiatry Research, 2023",
+      "tag": "SCI Q2",
+      "highlight_zh": "尼古丁成瘾白质功能网络异常",
+      "highlight_en": "Altered white matter functional network in nicotine addiction",
+      "link": "https://doi.org/10.1016/j.psychres.2023.115073"
+    },
+    {
+      "authors": "Zha R.#, Li P.#, ... Zhang X.*, Li J.*",
+      "title": "The orbitofrontal cortex represents advantageous choice in the Iowa gambling task",
+      "title_en": "OFC represents advantageous choice",
+      "journal": "Human Brain Mapping, 2022",
+      "tag": "SCI Q2 Top (Cover)",
+      "highlight_zh": "眶额叶皮层表征爱荷华博弈任务中的优势选择（封面论文）",
+      "highlight_en": "Orbitofrontal cortex represents advantageous choice",
+      "link": "https://doi.org/10.1002/hbm.25509"
+    },
+    {
+      "authors": "Zha R., Bu J., ... Zhang X.*",
+      "title": "Transforming brain signals related to value evaluation and self-control into behavioral choices",
+      "title_en": "Value/self-control signals guide choices",
+      "journal": "Human Brain Mapping, 2019",
+      "tag": "SCI Q2 Top",
+      "highlight_zh": "价值评估与自控相关脑信号转化为行为选择",
+      "highlight_en": "Brain signals of value and self-control guide choices",
+      "link": "https://doi.org/10.1002/hbm.24379"
+    },
+    {
+      "authors": "Chen H.#, Zha R.#*, ... Zhang X.*",
+      "title": "Internet gaming disorder and tobacco use disorder share neural connectivity patterns between the subcortical and the motor network",
+      "title_en": "IGD and tobacco use share neural connectivity",
+      "journal": "Human Brain Mapping, 2023",
+      "tag": "SCI Q2 Top",
+      "highlight_zh": "游戏障碍与烟草使用障碍共享皮层下-运动网络连接模式",
+      "highlight_en": "Shared subcortical-motor connectivity in IGD and tobacco use",
+      "link": "https://doi.org/10.1002/hbm.26233"
+    },
+    {
+      "authors": "Wan L.#*, Zha R.#*, ... Zhang X.*",
+      "title": "Brain morphology, harm avoidance, and the severity of excessive internet use",
+      "title_en": "Brain morphology and excessive internet use",
+      "journal": "Human Brain Mapping, 2022",
+      "tag": "SCI Q2 Top",
+      "highlight_zh": "脑形态、伤害回避与过度使用网络的严重程度",
+      "highlight_en": "Brain morphology, harm avoidance and internet use severity",
+      "link": "https://doi.org/10.1002/hbm.25842"
+    },
+    {
+      "authors": "Zeng F.#, Hong W.#, Zha R.#*, ... Yu Y.*, Zhang X.*",
+      "title": "Smoking related attention alteration in chronic obstructive pulmonary disease-smoking comorbidity",
+      "title_en": "Attention alteration in COPD-smoking comorbidity",
+      "journal": "BMC Pulmonary Medicine, 2022",
+      "tag": "SCI",
+      "highlight_zh": "COPD-吸烟共病中吸烟相关注意改变",
+      "highlight_en": "Smoking-related attention alteration in COPD-smoking comorbidity",
+      "link": "https://doi.org/10.1186/s12890-022-01964-6"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-08",
+      "title_zh": "课题组参与科技部'十四五'重点研发计划",
+      "title_en": "Group joins National Key R&D Program"
+    },
+    {
+      "date": "2026-07",
+      "title_zh": "与合肥天使儿童医院联合开展 ADHD 非药物干预课题",
+      "title_en": "Joint ADHD non-drug project launched"
+    },
+    {
+      "date": "2025",
+      "title_zh": "Molecular Psychiatry 发表 tDCS 修复成瘾行为研究",
+      "title_en": "tDCS restores addiction in Molecular Psychiatry",
+      "link": "https://doi.org/10.1038/s41380-025-03249-w"
+    }
+  ],
+  "join": {
+    "slots_zh": "带教应用心理硕士研究生，欢迎优秀本科生提前联系",
+    "slots_en": "Master students in Applied Psychology; undergraduates welcome",
+    "req_zh": "对中医心理物理干预、taVNS、成瘾/ADHD 神经调控有浓厚兴趣；心理学/医学/生物/神经科学背景优先；会 Python/R 是加分项",
+    "req_en": "Interest in TCM psychophysical intervention, taVNS, addiction/ADHD neuroregulation; psych/med/bio/neuro background preferred; Python/R a plus",
+    "treat_zh": "科研经费支持 + 学术会议机会 + 论文发表奖励 + 实验室计算资源",
+    "treat_en": "Research funding + conference opportunities + publication incentives + lab computing resources",
+    "process_zh": "邮件发送简历与研究兴趣 → 初步面谈 → 双向选择 → 进组培养",
+    "process_en": "Email CV and research interest → Interview → Mutual selection → Join the lab",
+    "faq_zh": [
+      "Q1 课题组招什么方向的学生？A 应用心理硕士，主要方向为中医心理物理干预、taVNS 与成瘾/ADHD 神经调控。",
+      "Q2 本科生可以进组吗？A 欢迎，可先参与文献调研、数据分析与基础实验。",
+      "Q3 需要会编程或脑电/fMRI 技术吗？A 不是必须，有心理学或医学背景即可；Python/R、影像处理技术等进组后可逐步学习。",
+      "Q4 毕业要求高吗？A 鼓励发表高水平 SCI/SSCI 论文，导师会提供科研经费与学术资源支持。"
+    ],
+    "faq_en": [
+      "Q1 What students do you recruit? A Master students in Applied Psychology, focusing on TCM psychophysical intervention and taVNS.",
+      "Q2 Can undergraduates join? A Yes, you may start with literature review and data analysis.",
+      "Q3 Do I need coding or neuroimaging skills? A Not required; Python/R and imaging skills can be learned in the lab.",
+      "Q4 What are the graduation requirements? A We encourage high-quality SCI/SSCI publications and provide funding and support."
+    ]
+  },
+  "contact": {
+    "address_zh": "合肥市新站区龙子湖路350号 安徽中医药大学人文与国际教育交流学院389室",
+    "address_en": "Room 389, School of Humanities & International Education, AHTCM, 350 Longzihu Road, Hefei",
+    "email1": "zharj@ahtcm.edu.cn",
+    "email2": "zharj@ustc.edu.cn"
+  }
+}
