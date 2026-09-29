@@ -1,18 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
   repo: zha-rujing-lab/zha-rujing-lab.github.io
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/41c941e0-5af8-4293-bad2-905955bbe554
-  gateway_url: https://gateway.decapbridge.com
-  commit_messages:
-    create: Create {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
-    update: Update {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
-    delete: Delete {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
-    uploadMedia: Upload "{{path}}" - {{author-name}} via DecapBridge
-    deleteMedia: Delete "{{path}}" - {{author-name}} via DecapBridge
-
-logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-site_url: https://zha-rujing-lab.github.io
 
 media_folder: "images"
 public_folder: "/images"
@@ -25,8 +14,4 @@ collections:
         label: "全部数据（JSON）"
         file: "data.json"
         fields:
-          - label: "内容"
-            name: "body"
-            widget: "code"
-            default_language: "json"
-            output_code_only: true
+          - { label: "数据", name: "data", widget: "code", default_language: "json" }
