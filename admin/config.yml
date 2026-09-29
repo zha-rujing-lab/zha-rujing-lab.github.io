@@ -25,4 +25,8 @@ collections:
         label: "全部数据（JSON）"
         file: "data.json"
         fields:
-          - { label: "数据", name: "data", widget: "code", default_language: "json" }
+          - label: "内容"
+            name: "body"
+            widget: "code"
+            default_language: "json"
+            output_code_only: true
