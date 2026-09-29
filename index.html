@@ -2711,6 +2711,7 @@ function applySession(){
 }
 
 function checkEditMode(){
+    return; // 已禁用本地编辑功能，改用 Decap CMS
   const params=new URLSearchParams(location.search);
   applySession();
   if(getSession())return;
@@ -3115,14 +3116,6 @@ function scrollToHash(){
 const _origRender = render;
 render = function(){ _origRender(); setTimeout(initReveal, 50); scrollToHash(); };
 window.__editVisible=false;
-document.addEventListener('keydown',function(e){
-  const isShortcut=(e.ctrlKey && e.shiftKey && e.key.toLowerCase()==='d') || (e.ctrlKey && e.altKey && e.key.toLowerCase()==='e');
-  if(isShortcut){
-    e.preventDefault();
-    window.__editVisible=!window.__editVisible;
-    applyEditVisibility();
-  }
-});
 loadData();
 </script>
 </body></html>
