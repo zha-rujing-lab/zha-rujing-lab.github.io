@@ -1,0 +1,12 @@
+media: images
+content:
+  - name: site
+    label: 网站内容
+    type: collection
+    path: ""
+    files:
+      - name: data
+        label: 全部数据（JSON）
+        file: data.json
+        fields:
+          - { name: data, label: 数据, type: code, default_language: json }
