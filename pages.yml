@@ -57,20 +57,8 @@ content:
       label: 首页关键词（英）
       type: string
       list: true
-  - name: stats
-    label: ④ 首页四个数字
-    type: string
-    list: true
-  - name: stats_label_zh
-    label: 　数字说明（中）
-    type: string
-    list: true
-  - name: stats_label_en
-    label: 　数字说明（英）
-    type: string
-    list: true
   - name: pi
-    label: ⑤ 导师
+    label: ④ 导师
     type: object
     fields:
     - name: name
@@ -107,11 +95,64 @@ content:
       label: 荣誉（英）
       type: string
       list: true
+    - name: appoint_zh
+      label: 　学术任职（中）
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{group}'
+      fields:
+      - name: group
+        label: 分组名（学会任职/期刊任职/审稿服务）
+        type: string
+      - name: items
+        label: 条目（可用 <b>重点</b> 加粗）
+        type: string
+        list: true
+      - name: chips
+        label: 用标签样式显示（审稿期刊那栏勾选）
+        type: boolean
+    - name: appoint_en
+      label: 　学术任职（英）
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{group}'
+      fields:
+      - name: group
+        label: 分组名
+        type: string
+      - name: items
+        label: 条目（可用 <b>重点</b> 加粗）
+        type: string
+        list: true
+      - name: chips
+        label: 用标签样式显示
+        type: boolean
+    - name: links
+      label: 　相关链接（学校／学院／主页／ORCID 等）
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label_zh}'
+      fields:
+      - name: label_zh
+        label: 按钮文字（中）
+        type: string
+      - name: label_en
+        label: 按钮文字（英）
+        type: string
+      - name: url
+        label: 网址（http 开头；邮箱用 mailto:）
+        type: string
     - name: photo
       label: 导师照片（上传）
       type: image
   - name: research
-    label: ⑥ 研究方向
+    label: ⑤ 研究方向
     type: object
     list:
       collapsible:
@@ -143,7 +184,7 @@ content:
       label: 小图标图片（上传，可选）
       type: image
   - name: pubs
-    label: ⑦ 代表性论文
+    label: ⑥ 代表性论文
     type: object
     list:
       collapsible:
@@ -175,7 +216,45 @@ content:
       label: 论文链接
       type: string
   - name: projects
-    label: ⑧ 在研项目
+    label: ⑦ 科研项目
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name_zh}'
+    fields:
+    - name: group_zh
+      label: 分组（主持项目／参与项目）
+      type: string
+    - name: group_en
+      label: 分组（英，如 As PI／As Co-I）
+      type: string
+    - name: name_zh
+      label: 项目名（中）
+      type: string
+    - name: name_en
+      label: 项目名（英）
+      type: string
+    - name: title_zh
+      label: 项目题目（中）
+      type: string
+    - name: title_en
+      label: 项目题目（英）
+      type: string
+    - name: meta_zh
+      label: 说明（中，如 2025.01–2027.12 · 30万元）
+      type: string
+    - name: meta_en
+      label: 说明（英）
+      type: string
+    - name: badge_zh
+      label: 标签（中，主持／参与）
+      type: string
+    - name: badge_en
+      label: 标签（英，PI／Co-I）
+      type: string
+  - name: teaching
+    label: ⑧ 教学项目
     type: object
     list:
       collapsible:
@@ -187,6 +266,12 @@ content:
       type: string
     - name: name_en
       label: 项目名（英）
+      type: string
+    - name: title_zh
+      label: 项目题目（中）
+      type: string
+    - name: title_en
+      label: 项目题目（英）
       type: string
     - name: meta_zh
       label: 说明（中）
@@ -200,8 +285,48 @@ content:
     - name: badge_en
       label: 标签（英）
       type: string
+  - name: mentoring
+    label: ⑨ 指导学生
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{group_zh}'
+    fields:
+    - name: group_zh
+      label: 分组名（中）
+      type: string
+    - name: group_en
+      label: 分组名（英）
+      type: string
+    - name: items
+      label: 条目
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{date} {who}'
+      fields:
+      - name: date
+        label: 时间（如 2026.09）
+        type: string
+      - name: who
+        label: 学生（中）
+        type: string
+      - name: who_en
+        label: 学生（英）
+        type: string
+      - name: what_zh
+        label: 成果（中）
+        type: text
+      - name: what_en
+        label: 成果（英）
+        type: text
+      - name: link
+        label: 相关报道链接（可选，留空则不显示）
+        type: string
   - name: news
-    label: ⑨ 实验室动态
+    label: ⑩ 实验室动态
     type: object
     list:
       collapsible:
@@ -221,7 +346,7 @@ content:
       label: 链接（可选）
       type: string
   - name: members
-    label: ⑩ 课题组成员
+    label: ⑪ 课题组成员
     type: object
     list:
       collapsible:
@@ -250,7 +375,7 @@ content:
       label: 研究方向（英）
       type: text
   - name: join
-    label: ⑪ 加入我们
+    label: ⑫ 加入我们
     type: object
     fields:
     - name: slots_zh
@@ -278,7 +403,7 @@ content:
       label: 流程（英）
       type: string
   - name: contact
-    label: ⑫ 联系方式
+    label: ⑬ 联系方式
     type: object
     fields:
     - name: address_zh
@@ -290,3 +415,26 @@ content:
     - name: email1
       label: 邮箱
       type: string
+    - name: wechat
+      label: 微信公众号（关注我们）
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{name_zh}'
+      fields:
+      - name: name_zh
+        label: 公众号名称（中）
+        type: string
+      - name: name_en
+        label: 公众号名称（英）
+        type: string
+      - name: id
+        label: 微信号（如 gh_4c130113eb2f，没有就留空）
+        type: string
+      - name: note_zh
+        label: 说明（中，如 学院官方微信）
+        type: string
+      - name: note_en
+        label: 说明（英）
+        type: string
