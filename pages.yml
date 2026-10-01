@@ -1,0 +1,292 @@
+# 查汝晶课题组 · 网站后台配置（Pages CMS）
+# 用法：本文件放在仓库根目录，然后打开 app.pagescms.org 用 GitHub 登录授权本仓库。
+
+media:
+  input: images
+  output: /images
+  categories:
+  - image
+content:
+- name: site
+  label: 网站内容
+  type: file
+  path: data.json
+  format: json
+  fields:
+  - name: meta
+    label: ① 更新信息
+    type: object
+    fields:
+    - name: lastUpdated
+      label: 最近更新日期（如 2026-09-30）
+      type: string
+    - name: dataVersion
+      label: 数据版本（不用改）
+      type: number
+  - name: lab
+    label: ② 课题组名称
+    type: object
+    fields:
+    - name: name_zh
+      label: 中文名
+      type: string
+    - name: name_en
+      label: 英文名
+      type: string
+    - name: dept_zh
+      label: 中文单位
+      type: string
+    - name: dept_en
+      label: 英文单位
+      type: string
+  - name: brand
+    label: ③ 首页标语
+    type: object
+    fields:
+    - name: slogan_zh
+      label: 标语（中）
+      type: string
+    - name: slogan_en
+      label: 标语（英）
+      type: string
+    - name: keywords_zh
+      label: 首页关键词（中）
+      type: string
+      list: true
+    - name: keywords_en
+      label: 首页关键词（英）
+      type: string
+      list: true
+  - name: stats
+    label: ④ 首页四个数字
+    type: string
+    list: true
+  - name: stats_label_zh
+    label: 　数字说明（中）
+    type: string
+    list: true
+  - name: stats_label_en
+    label: 　数字说明（英）
+    type: string
+    list: true
+  - name: pi
+    label: ⑤ 导师
+    type: object
+    fields:
+    - name: name
+      label: 中文姓名
+      type: string
+    - name: name_en
+      label: 英文姓名
+      type: string
+    - name: title_zh
+      label: 职称（中）
+      type: string
+    - name: title_en
+      label: 职称（英）
+      type: string
+    - name: bio_zh
+      label: 简介（中）
+      type: text
+    - name: bio_en
+      label: 简介（英）
+      type: text
+    - name: tags_zh
+      label: 标签（中）
+      type: string
+      list: true
+    - name: tags_en
+      label: 标签（英）
+      type: string
+      list: true
+    - name: honors_zh
+      label: 荣誉（中）
+      type: string
+      list: true
+    - name: honors_en
+      label: 荣誉（英）
+      type: string
+      list: true
+    - name: photo
+      label: 导师照片（上传）
+      type: image
+  - name: research
+    label: ⑥ 研究方向
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{q_zh}'
+    fields:
+    - name: q_zh
+      label: 标题（中）
+      type: string
+    - name: q_en
+      label: 标题（英）
+      type: string
+    - name: bg_zh
+      label: 研究内容（中）
+      type: text
+    - name: bg_en
+      label: 研究内容（英）
+      type: text
+    - name: s_zh
+      label: 意义（中）
+      type: text
+    - name: s_en
+      label: 意义（英）
+      type: text
+    - name: icon
+      label: 小图标（emoji，可留空）
+      type: string
+    - name: iconImg
+      label: 小图标图片（上传，可选）
+      type: image
+  - name: pubs
+    label: ⑦ 代表性论文
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: 标题
+      type: string
+    - name: title_en
+      label: 英文标题
+      type: string
+    - name: authors
+      label: 作者
+      type: string
+    - name: journal
+      label: 期刊与年份
+      type: string
+    - name: tag
+      label: 等级标签（如 SCI Q1）
+      type: string
+    - name: highlight_zh
+      label: 亮点（中）
+      type: string
+    - name: highlight_en
+      label: 亮点（英）
+      type: string
+    - name: link
+      label: 论文链接
+      type: string
+  - name: projects
+    label: ⑧ 在研项目
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name_zh}'
+    fields:
+    - name: name_zh
+      label: 项目名（中）
+      type: string
+    - name: name_en
+      label: 项目名（英）
+      type: string
+    - name: meta_zh
+      label: 说明（中）
+      type: string
+    - name: meta_en
+      label: 说明（英）
+      type: string
+    - name: badge_zh
+      label: 标签（中）
+      type: string
+    - name: badge_en
+      label: 标签（英）
+      type: string
+  - name: news
+    label: ⑨ 实验室动态
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{date} {title_zh}'
+    fields:
+    - name: date
+      label: 日期
+      type: string
+    - name: title_zh
+      label: 内容（中）
+      type: string
+    - name: title_en
+      label: 内容（英）
+      type: string
+    - name: link
+      label: 链接（可选）
+      type: string
+  - name: members
+    label: ⑩ 课题组成员
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: name
+      label: 中文姓名
+      type: string
+    - name: name_en
+      label: 英文姓名
+      type: string
+    - name: role_zh
+      label: 身份（中）
+      type: string
+    - name: role_en
+      label: 身份（英）
+      type: string
+    - name: photo
+      label: 头像（上传）
+      type: image
+    - name: research_zh
+      label: 研究方向（中）
+      type: text
+    - name: research_en
+      label: 研究方向（英）
+      type: text
+  - name: join
+    label: ⑪ 加入我们
+    type: object
+    fields:
+    - name: slots_zh
+      label: 名额（中）
+      type: string
+    - name: slots_en
+      label: 名额（英）
+      type: string
+    - name: req_zh
+      label: 要求（中）
+      type: string
+    - name: req_en
+      label: 要求（英）
+      type: string
+    - name: treat_zh
+      label: 待遇（中）
+      type: string
+    - name: treat_en
+      label: 待遇（英）
+      type: string
+    - name: process_zh
+      label: 流程（中）
+      type: string
+    - name: process_en
+      label: 流程（英）
+      type: string
+  - name: contact
+    label: ⑫ 联系方式
+    type: object
+    fields:
+    - name: address_zh
+      label: 地址（中）
+      type: string
+    - name: address_en
+      label: 地址（英）
+      type: string
+    - name: email1
+      label: 邮箱
+      type: string

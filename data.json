@@ -1,19 +1,43 @@
 {
-  "meta": { "lastUpdated": "2026-08-16", "dataVersion": 4 },
-  "stats": ["11", "8", "6", "300+"],
-  "stats_label_zh": ["SCI/SSCI 论文", "中科院一区/Top", "在研项目", "科研经费(万)"],
-  "stats_label_en": ["Papers", "Q1/Top", "Projects", "Funding(10K)"],
+  "meta": {
+    "lastUpdated": "2026-09-30",
+    "dataVersion": 4
+  },
+  "stats": [
+    "11",
+    "8",
+    "6",
+    "300+"
+  ],
+  "stats_label_zh": [
+    "SCI/SSCI 论文",
+    "中科院一区/Top",
+    "在研项目",
+    "科研经费(万)"
+  ],
+  "stats_label_en": [
+    "Papers",
+    "Q1/Top",
+    "Projects",
+    "Funding(10K)"
+  ],
   "brand": {
     "slogan_zh": "以中医智慧，解心灵之结",
     "slogan_en": "Caring with TCM Wisdom, Resolving the Knots of the Mind",
-    "keywords_zh": ["传承", "融合", "守护"],
-    "keywords_en": ["Heritage", "Integration", "Care"],
-    "story_zh": "我们相信，中医智慧与现代神经科学并非两条平行线——taVNS 正是二者的交汇点。用科学验证传统，用传统滋养科学。",
-    "story_en": "We believe TCM wisdom and modern neuroscience are not parallel lines. taVNS is where they meet.",
-    "cta_zh": "探索我们的研究 →",
-    "cta_en": "Explore Our Research →",
-    "hero_hint_zh": "↓ 向下滚动，了解 taVNS、成瘾干预与中医心理物理研究",
-    "hero_hint_en": "↓ Scroll down to explore taVNS, addiction intervention & TCM psychophysical research"
+    "keywords_zh": [
+      "经皮耳穴迷走神经刺激",
+      "神经调控",
+      "行为成瘾",
+      "注意缺陷多动障碍",
+      "中医心理物理干预"
+    ],
+    "keywords_en": [
+      "taVNS",
+      "Neuromodulation",
+      "Addiction",
+      "ADHD",
+      "TCM Psychophysics"
+    ]
   },
   "lab": {
     "name_zh": "查汝晶课题组",
@@ -28,12 +52,33 @@
     "title_en": "Professor · Master Supervisor",
     "bio_zh": "查汝晶，校聘教授，硕士生导师，安徽中医药大学人文与国际教育交流学院学科与科研秘书。亚洲物质滥用研究会心理治疗专委会副秘书长，中国药物滥用防治协会行为成瘾专委会常委，安徽省社科界青年学人导师，安徽省心理卫生协会认知行为治疗专委会常委，Plos Mental Health 学术编辑，安徽省心理健康教育学会理事。主要研究方向为中医心理物理干预，迄今以第一/通讯作者在 Molecular Psychiatry、Computers in Human Behavior、Journal of Behavioral Addictions、NeuroImage 等国际知名期刊发表 SCI/SSCI 论文 11 篇（其中中科院一区/Top 8 篇）。目前主持国家自然科学基金、教育部人文社会科学研究基金、安徽省自然科学基金等多项科研项目。主要讲授《大学生心理健康教育》《网络心理学》《高级心理统计》等课程。",
     "bio_en": "TCM psychophysical intervention research. 11 SCI/SSCI papers, 8 in CAS Q1/Top.",
-    "tags_zh": ["硕士生导师", "中医心理物理干预", "神经调控", "行为成瘾"],
-    "tags_en": ["Professor", "TCM Psychophysical", "Neuromodulation", "Addiction"],
-    "honors_zh": ["安徽省社科界‘优青’人才", "安徽省社科界青年学术论坛百位优秀青年学者", "中国科学技术大学墨子杰出青年特资津贴", "国际人脑图谱学会（OHBM）Merit Abstract Award", "观察者网年度科创人物", "International Research Award And Honors Best Researcher Award", "安徽省社会心理学学会学术年会论文二等奖"],
-    "honors_en": ["Excellent Young Scholar", "MOZI Award", "OHBM Merit"],
-    "cv_zh": "亚洲物质滥用研究会心理治疗专委会副秘书长；中国药物滥用防治协会行为成瘾专委会常委；安徽省社科界青年学人导师；安徽省心理卫生协会认知行为治疗专委会常委；Plos Mental Health 学术编辑；安徽省心理健康教育学会理事。指导学生获安徽省心理卫生协会学术年会应用心理案例赛道三等奖。",
-    "cv_en": "Secretary-General, Psychotherapy Committee, AASRA; Academic Editor, PLOS Mental Health."
+    "tags_zh": [
+      "硕士生导师",
+      "中医心理物理干预",
+      "神经调控",
+      "行为成瘾"
+    ],
+    "tags_en": [
+      "Professor",
+      "TCM Psychophysical",
+      "Neuromodulation",
+      "Addiction"
+    ],
+    "honors_zh": [
+      "安徽省社科界‘优青’人才",
+      "安徽省社科界青年学术论坛百位优秀青年学者",
+      "中国科学技术大学墨子杰出青年特资津贴",
+      "国际人脑图谱学会（OHBM）Merit Abstract Award",
+      "观察者网年度科创人物",
+      "International Research Award And Honors Best Researcher Award",
+      "安徽省社会心理学学会学术年会论文二等奖"
+    ],
+    "honors_en": [
+      "Excellent Young Scholar",
+      "MOZI Award",
+      "OHBM Merit"
+    ],
+    "photo": "images/faculty.jpg"
   },
   "research": [
     {
@@ -61,13 +106,8 @@
       "name_en": "Rujing Zha",
       "role_zh": "导师",
       "role_en": "Mentor / PI",
-      "bio_zh": "校聘教授，硕士生导师。亚洲物质滥用研究会心理治疗专委会副秘书长，中国药物滥用防治协会行为成瘾专委会常委，安徽省社科界青年学人导师。主要研究方向为中医心理物理干预，以第一/通讯作者在 Molecular Psychiatry、NeuroImage 等期刊发表 SCI/SSCI 论文 11 篇（中科院一区/Top 8 篇）。",
-      "bio_en": "Professor and Master Supervisor. Secretary-General of AASRA Psychotherapy Committee. Research focuses on TCM psychophysical intervention, with 11 SCI/SSCI papers as first/corresponding author.",
       "research_zh": "1. 中医经皮耳穴迷走神经刺激结合心理物理干预对成瘾、ADHD 等精神类疾病的调控作用；2. 运用实验心理学与神经科学技术揭示中医针灸理论对情绪、冲动控制、语言功能的影响机制。",
-      "research_en": "1. taVNS combined with psychophysical intervention for addiction and ADHD; 2. Experimental psychology and neuroscience approaches to TCM acupuncture effects on emotion, impulse control and language.",
-      "pubs_zh": "代表性论文：Molecular Psychiatry (2025); Computers in Human Behavior (2022); NeuroImage (2024); Journal of Behavioral Addictions (2023); Human Brain Mapping 多篇。",
-      "pubs_en": "Representative publications in Molecular Psychiatry, Computers in Human Behavior, NeuroImage, Journal of Behavioral Addictions, and Human Brain Mapping.",
-      "email": "zharj@ahtcm.edu.cn"
+      "research_en": "1. taVNS combined with psychophysical intervention for addiction and ADHD; 2. Experimental psychology and neuroscience approaches to TCM acupuncture effects on emotion, impulse control and language."
     },
     {
       "name": "欢迎加入",
@@ -270,24 +310,11 @@
     "treat_zh": "科研经费支持 + 学术会议机会 + 论文发表奖励 + 实验室计算资源",
     "treat_en": "Research funding + conference opportunities + publication incentives + lab computing resources",
     "process_zh": "邮件发送简历与研究兴趣 → 初步面谈 → 双向选择 → 进组培养",
-    "process_en": "Email CV and research interest → Interview → Mutual selection → Join the lab",
-    "faq_zh": [
-      "Q1 课题组招什么方向的学生？A 应用心理硕士，主要方向为中医心理物理干预、taVNS 与成瘾/ADHD 神经调控。",
-      "Q2 本科生可以进组吗？A 欢迎，可先参与文献调研、数据分析与基础实验。",
-      "Q3 需要会编程或脑电/fMRI 技术吗？A 不是必须，有心理学或医学背景即可；Python/R、影像处理技术等进组后可逐步学习。",
-      "Q4 毕业要求高吗？A 鼓励发表高水平 SCI/SSCI 论文，导师会提供科研经费与学术资源支持。"
-    ],
-    "faq_en": [
-      "Q1 What students do you recruit? A Master students in Applied Psychology, focusing on TCM psychophysical intervention and taVNS.",
-      "Q2 Can undergraduates join? A Yes, you may start with literature review and data analysis.",
-      "Q3 Do I need coding or neuroimaging skills? A Not required; Python/R and imaging skills can be learned in the lab.",
-      "Q4 What are the graduation requirements? A We encourage high-quality SCI/SSCI publications and provide funding and support."
-    ]
+    "process_en": "Email CV and research interest → Interview → Mutual selection → Join the lab"
   },
   "contact": {
     "address_zh": "合肥市新站区龙子湖路350号 安徽中医药大学人文与国际教育交流学院389室",
     "address_en": "Room 389, School of Humanities & International Education, AHTCM, 350 Longzihu Road, Hefei",
-    "email1": "zharj@ahtcm.edu.cn",
-    "email2": "zharj@ustc.edu.cn"
+    "email1": "zharj@ahtcm.edu.cn"
   }
 }
