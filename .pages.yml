@@ -4,4 +4,9 @@ content:
     label: 全部数据
     type: file
     path: data.json
-    format: code
+    fields:
+      - name: body
+        label: 网站数据
+        type: code
+        options:
+          language: json
