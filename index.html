@@ -1901,6 +1901,22 @@ html.is-scrolling .nav{background:rgba(9,20,16,.96);}
   text-shadow:0 0 26px rgba(217,184,124,.26), 0 1px 0 rgba(0,0,0,.28);}
 @media print{.sec-title{color:#152E26 !important;text-shadow:none !important;background:none;}}
 </style>
+<style id="hero-clean">
+/* 首屏去纹理：去掉放射条纹(conic)与网格线，只留柔和光晕 */
+.hero::before{
+  background:
+    radial-gradient(125% 64% at 50% -18%, rgba(255,246,222,.17), rgba(255,246,222,.045) 40%, transparent 68%),
+    radial-gradient(circle at 12% 16%, rgba(90,140,120,.40), transparent 46%),
+    radial-gradient(circle at 86% 82%, rgba(116,180,155,.20), transparent 54%);
+  -webkit-mask-image:none;mask-image:none;}
+.hero::after{
+  opacity:1;
+  background:
+    radial-gradient(40% 44% at 26% 24%, rgba(255,246,222,.11), transparent 72%),
+    radial-gradient(32% 36% at 76% 40%, rgba(126,206,172,.11), transparent 74%),
+    radial-gradient(30% 30% at 50% 74%, rgba(255,246,222,.07), transparent 76%);
+  -webkit-mask-image:none;mask-image:none;}
+</style>
 </head>
 <body>
 <div class="mist mist-fixed" aria-hidden="true"><canvas id="mote-cv"></canvas></div>
