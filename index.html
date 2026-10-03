@@ -1917,6 +1917,42 @@ html.is-scrolling .nav{background:rgba(9,20,16,.96);}
     radial-gradient(30% 30% at 50% 74%, rgba(255,246,222,.07), transparent 76%);
   -webkit-mask-image:none;mask-image:none;}
 </style>
+<style id="typescale">
+/* ============ 字阶统一（2026-10-03） ============
+   问题：全站字号过于零碎（11.5/12/12.5/13/13.5/14/14.5/15.5/16/17/17.5/19/22/25/26），
+   同一类信息在不同版块字号不一致，看起来"大大小小"。
+   做法：归并到 7 档——12 / 13 / 14.5 / 16 / 20 / 28（+ 导师姓名 32、首屏大标题保留）。
+   同类信息一律同号：标题、正文、次要信息、标签各自统一。 */
+:root{
+  --fs-micro:12px;    /* 标签、日期、图例、角标 */
+  --fs-small:13px;    /* 次要信息：作者、期刊、时间、元数据 */
+  --fs-body:14.5px;   /* 正文 */
+  --fs-lead:16px;     /* 条目标题 / 论文标题 / 编号 */
+  --fs-h3:20px;       /* 卡片与分组标题 / 章节英文水印 */
+  --fs-h2:28px;       /* 章节大标题 */
+}
+/* 12px：标签、徽标、日期、图例 */
+.pub-legend,.pub-legend .pl-k,.pub-legend .pl-count,
+.hero-tags span,.tag,.pub-tag,.badge,.mlink,
+.mitems .mdate,.mgroup-head .mcount,.sec-num,.apt-card h4 .acount{font-size:var(--fs-micro);}
+/* 13px：次要信息 */
+.pub .authors,.pub .journal,.proj .meta,.pi-title,.pi-extra,.res-lbl,
+.news-item .date,.mitems li,.follow .follow-hint,.follow .follow-card .fnote,
+.join-item .lbl,.join-item .val,.cta-note,.pub-legend .pl-k b{font-size:var(--fs-small);}
+/* 14.5px：正文 */
+.pi-bio,.news-item,.proj .name,.pub .hl,.res-bg,.res-s,.join-item .val{font-size:var(--fs-body);}
+/* 16px：条目标题 */
+.pub .title,.pub-num,.res-q,.follow .follow-card .fn{font-size:var(--fs-lead);}
+/* 20px：分组标题 + 章节英文水印（改为固定字号，不再随视口缩放） */
+.mgroup-head h3,.pgroup h3,.follow .follow-title,.sec-sub{font-size:var(--fs-h3);}
+/* 28px：章节大标题 */
+.sec-title{font-size:var(--fs-h2);}
+/* 导师姓名保持 32px（版面锚点） */
+.pi-name{font-size:32px;}
+/* 行高也统一：同类信息同高 */
+.pub .authors,.pub .journal,.proj .meta,.mitems li,.news-item{line-height:1.7;}
+.pub .title,.proj .name,.mgroup-head h3,.pgroup h3{line-height:1.45;}
+</style>
 </head>
 <body>
 <div class="mist mist-fixed" aria-hidden="true"><canvas id="mote-cv"></canvas></div>
