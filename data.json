@@ -32,7 +32,7 @@
     "name_en": "Rujing Zha",
     "title_zh": "校聘教授 · 硕士生导师",
     "title_en": "Professor · Master Supervisor",
-    "bio_zh": "查汝晶，博士，校聘教授，硕士生导师，入选省高层次人才项目。安徽中医药大学人文与国际教育交流学院学科与科研秘书，中国心理卫生协会神经调控与心理健康专业委员会总干事，亚洲物质滥用研究会心理治疗专委会副秘书长，中国药物滥用防治协会行为成瘾专委会常委，安徽省社科界青年学人导师，安徽省心理卫生协会认知行为治疗专委会常委，Discover Psychology、Discover Mental Health、PLOS Mental Health 编辑，安徽省心理健康教育学会理事。\n\n迄今以第一/通讯作者在 Molecular Psychiatry、Computers in Human Behavior、Journal of Behavioral Addictions、NeuroImage 等国际知名期刊发表 SCI/SSCI 论文 11 篇（其中中科院一区/Top 8 篇）。获安徽省社科界“优青”人才、安徽省社科界青年学术论坛百位优秀青年学者、中国科学技术大学墨子杰出青年特资津贴、国际人脑图谱学会（OHBM）Merit Abstract Award 等荣誉。\n\n目前主持国家自然科学基金、教育部人文社会科学研究基金等多项科研项目。主要讲授《大学生心理健康教育》《网络心理学》《神经刺激技术与调控》《高级心理统计》等课程。指导研究生、本科生获国家奖学金，指导研究生获全国应用心理专业学位研究生实践技能大赛二等奖、安徽省中医药文化研究会学术年会论文一等奖、安徽省应用心理专业硕士技能竞赛特等奖，指导本科生获安徽省心理卫生协会学术年会应用心理案例赛道三等奖。",
+    "bio_zh": "查汝晶，博士，校聘教授，硕士生导师，入选省高层次人才项目。安徽中医药大学人文与国际教育交流学院学科与科研秘书，中国心理卫生协会神经调控与心理健康专业委员会总干事，亚洲物质滥用研究会心理治疗专委会副秘书长，中国药物滥用防治协会行为成瘾专委会常委，安徽省社科界青年学人导师，安徽省心理卫生协会认知行为治疗专委会常委，Discover Psychology、Discover Mental Health、PLOS Mental Health 编辑，安徽省心理健康教育学会理事。\n\n迄今以第一/通讯作者在 Molecular Psychiatry、Computers in Human Behavior、Journal of Behavioral Addictions、NeuroImage 等国际知名期刊发表 SCI/SSCI 论文 11 篇（其中中科院一区/Top 8 篇）。\n\n目前主持国家自然科学基金、教育部人文社会科学研究基金等多项科研项目。主要讲授《大学生心理健康教育》《网络心理学》《神经刺激技术与调控》《高级心理统计》等课程。指导研究生、本科生获国家奖学金，指导研究生获全国应用心理专业学位研究生实践技能大赛二等奖、安徽省中医药文化研究会学术年会论文一等奖、安徽省应用心理专业硕士技能竞赛特等奖，指导本科生获安徽省心理卫生协会学术年会应用心理案例赛道三等奖。",
     "bio_en": "Rujing Zha, PhD, Professor and Master's supervisor at the School of Humanities and International Education Exchange, Anhui University of Chinese Medicine; selected for the Anhui provincial high-level talent program. Academic secretary for discipline and research of the School. Secretary-General of the Neuromodulation and Mental Health Committee, Chinese Mental Health Association; Deputy Secretary-General of the Psychotherapy Committee, Asian Association for Substance Abuse Research; Standing Member of the Behavioral Addiction Committee, Chinese Association of Drug Abuse Prevention and Treatment; editorial board member of Discover Psychology, Discover Mental Health and PLOS Mental Health.\n\n As first or corresponding author, 11 SCI/SSCI papers have been published in journals including Molecular Psychiatry, Computers in Human Behavior, Journal of Behavioral Addictions and NeuroImage (8 in CAS Q1/Top). Current PI of projects funded by the National Natural Science Foundation of China and the Ministry of Education.\n\n Teaches Mental Health Education for College Students, Cyberpsychology, Neurostimulation Technology and Modulation, and Advanced Psychological Statistics. Supervised students have received national scholarships and multiple national and provincial research awards.",
     "tags_zh": [
       "硕士生导师",
@@ -46,22 +46,8 @@
       "Neuromodulation",
       "Addiction"
     ],
-    "honors_zh": [
-      "安徽省社科界‘优青’人才",
-      "安徽省社科界青年学术论坛百位优秀青年学者",
-      "中国科学技术大学墨子杰出青年特资津贴",
-      "国际人脑图谱学会（OHBM）Merit Abstract Award",
-      "International Research Award And Honors Best Researcher Award",
-      "观察者网年度科创人物"
-    ],
-    "honors_en": [
-      "Excellent Young Scholar, Anhui Social Sciences Circle",
-      "Among the 100 Outstanding Young Scholars, Anhui Social Sciences Youth Academic Forum",
-      "USTC Mozi Outstanding Young Scholar Special Allowance",
-      "OHBM Merit Abstract Award",
-      "International Research Awards and Honors - Best Researcher Award",
-      "Observer.com Annual Sci-Tech Figure"
-    ],
+    "honors_zh": [],
+    "honors_en": [],
     "photo": "images/faculty-cutout.png",
     "links": [
       {
@@ -94,19 +80,15 @@
   "research": [
     {
       "icon": "🧠",
-      "q_zh": "中医针灸理论如何影响情绪、冲动与语言功能？",
-      "q_en": "How does acupuncture theory affect emotion, impulse and language?",
       "bg_zh": "运用实验心理学方法及神经科学技术，揭示中医针灸理论与技术对人类情绪、冲动控制、语言功能的影响机制。",
-      "bg_en": "Using experimental psychology and neuroscience to reveal how TCM acupuncture shapes emotion, impulse control and language.",
+      "bg_en": "Using experimental psychology methods and neuroscience techniques, this research reveals the mechanisms by which TCM acupuncture theory and techniques influence human emotion, impulse control, and language.",
       "s_zh": "为中医理论提供现代神经科学证据，推动中西医深度对话。",
       "s_en": "Neuroscientific evidence for TCM theory, advancing East-West dialogue."
     },
     {
       "icon": "🎧",
-      "q_zh": "中医经皮耳穴迷走神经刺激能否调控成瘾与 ADHD？",
-      "q_en": "Can taVNS modulate addiction and ADHD?",
       "bg_zh": "探究中医经皮耳穴迷走神经刺激结合心理物理干预，对成瘾、注意缺陷与多动障碍等精神类疾病的调控作用。",
-      "bg_en": "Exploring taVNS combined with psychophysical interventions for addiction, ADHD and other psychiatric disorders.",
+      "bg_en": "Exploring how TCM transcutaneous auricular vagus nerve stimulation (taVNS) combined with psychophysical interventions modulates addiction, ADHD, and other psychiatric disorders.",
       "s_zh": "为精神类疾病提供无创、可及的中西医结合干预新路径。",
       "s_en": "Non-invasive integrative interventions for psychiatric disorders."
     }
@@ -117,9 +99,81 @@
       "name_en": "Rujing Zha",
       "role_zh": "导师",
       "role_en": "Mentor / PI",
-      "photo": "images/faculty-cutout.png",
       "research_zh": "1. 中医经皮耳穴迷走神经刺激结合心理物理干预对成瘾、ADHD 等精神类疾病的调控作用；2. 运用实验心理学与神经科学技术揭示中医针灸理论对情绪、冲动控制、语言功能的影响机制。",
-      "research_en": "1. taVNS combined with psychophysical intervention for addiction and ADHD; 2. Experimental psychology and neuroscience approaches to TCM acupuncture effects on emotion, impulse control and language."
+      "research_en": "1. taVNS combined with psychophysical intervention for addiction and ADHD; 2. Experimental psychology and neuroscience approaches to TCM acupuncture effects on emotion, impulse control and language.",
+      "photo": "images/members/zha-rujing.jpg"
+    },
+    {
+      "name": "刘聪",
+      "name_en": "Cong Liu",
+      "role_zh": "研究生",
+      "role_en": "Graduate Student",
+      "research_zh": "中医文化学",
+      "research_en": "TCM Culture",
+      "photo": "images/members/liu-cong.jpg"
+    },
+    {
+      "name": "许卓恒",
+      "name_en": "Zhuoheng Xu",
+      "role_zh": "研究生",
+      "role_en": "Graduate Student",
+      "research_zh": "认知神经科学（成瘾方向）",
+      "research_en": "Cognitive Neuroscience (Addiction)",
+      "photo": "images/members/xu-zhuoheng.jpg"
+    },
+    {
+      "name": "俞宇菲",
+      "name_en": "Yufei Yu",
+      "role_zh": "研究生",
+      "role_en": "Graduate Student",
+      "research_zh": "神经刺激、咨询心理学",
+      "research_en": "Neurostimulation, Counseling Psychology",
+      "photo": "images/members/yu-yufei.jpg"
+    },
+    {
+      "name": "毕司晨",
+      "name_en": "Sichen Bi",
+      "role_zh": "本科生",
+      "role_en": "Undergraduate",
+      "research_zh": "应用心理学",
+      "research_en": "Applied Psychology",
+      "photo": "images/members/bi-sichen.jpg"
+    },
+    {
+      "name": "李欣悦",
+      "name_en": "Xinyue Li",
+      "role_zh": "本科生",
+      "role_en": "Undergraduate",
+      "research_zh": "电针干预肥胖患者的临床疗效评价及基于 rs-fMRI 的中枢机制研究",
+      "research_en": "Clinical efficacy of electroacupuncture for obesity and its central mechanisms (rs-fMRI)",
+      "photo": "images/members/li-xinyue.jpg"
+    },
+    {
+      "name": "岳佳鹭",
+      "name_en": "Jialu Yue",
+      "role_zh": "本科生",
+      "role_en": "Undergraduate",
+      "research_zh": "经皮耳穴迷走神经刺激联合叙事疗法干预网络游戏成瘾；右侧额下回岛盖部功能连接异常：探究过度网络游戏中的潜在保护性神经机制",
+      "research_en": "taVNS combined with narrative therapy for internet gaming disorder; right inferior frontal operculum connectivity abnormalities as a potential protective mechanism.",
+      "photo": "images/members/yue-jialu.jpg"
+    },
+    {
+      "name": "张家慧",
+      "name_en": "Jiahui Zhang",
+      "role_zh": "本科生",
+      "role_en": "Undergraduate",
+      "research_zh": "中医耳穴刺激联合神经调控干预多动症，主要探索联合方案的治疗效果与内在机制",
+      "research_en": "Auricular acupoint stimulation combined with neuromodulation for ADHD",
+      "photo": "images/members/zhang-jiahui.jpg"
+    },
+    {
+      "name": "周心如",
+      "name_en": "Xinru Zhou",
+      "role_zh": "本科生",
+      "role_en": "Undergraduate",
+      "research_zh": "聚焦网络游戏成瘾，开展经皮耳穴迷走神经刺激联合叙事疗法干预研究，运用人工智能挖掘耳穴刺激调控成瘾情志的神经机制",
+      "research_en": "Internet gaming disorder: taVNS combined with narrative therapy; AI-driven neural mechanisms of auricular stimulation.",
+      "photo": "images/members/zhou-xinru.jpg"
     },
     {
       "name": "欢迎加入",
@@ -132,60 +186,10 @@
     {
       "group_zh": "主持项目",
       "group_en": "As PI",
-      "name_zh": "国家自然科学基金青年科学基金项目（32400919）",
-      "name_en": "NSFC Youth Science Fund (32400919)",
-      "meta_zh": "2025.01–2027.12 · 30万元",
-      "meta_en": "2025.01–2027.12 · 300K CNY",
-      "badge_zh": "主持",
-      "badge_en": "PI"
-    },
-    {
-      "group_zh": "主持项目",
-      "group_en": "As PI",
-      "name_zh": "中共安徽省委宣传部 · 省高层次人才项目（江淮英才培养计划）",
-      "name_en": "Anhui High-Level Talent Program (Jianghuai Talent Plan)",
+      "name_zh": "中共安徽省委宣传部 · 省高层次人才项目",
+      "name_en": "Anhui High-Level Talent Program",
       "meta_zh": "2026.07–2029.07 · 40万元",
       "meta_en": "2026.07–2029.07 · 400K CNY",
-      "badge_zh": "主持",
-      "badge_en": "PI"
-    },
-    {
-      "group_zh": "主持项目",
-      "group_en": "As PI",
-      "name_zh": "教育部人文社会科学研究青年基金（24YJCZH014）",
-      "name_en": "MOE Humanities & Social Sciences Youth Fund (24YJCZH014)",
-      "meta_zh": "2024.05–2027.03 · 8万元",
-      "meta_en": "2024.05–2027.03 · 80K CNY",
-      "badge_zh": "主持",
-      "badge_en": "PI"
-    },
-    {
-      "group_zh": "主持项目",
-      "group_en": "As PI",
-      "name_zh": "安徽省科学技术厅 青年项目（2408085QC081）",
-      "name_en": "Anhui Provincial Department of Science and Technology, Youth Project (2408085QC081)",
-      "meta_zh": "2024.09–2026.08 · 8万元",
-      "meta_en": "2024.09–2026.08 · 80K CNY",
-      "badge_zh": "主持",
-      "badge_en": "PI"
-    },
-    {
-      "group_zh": "主持项目",
-      "group_en": "As PI",
-      "name_zh": "安徽省教育厅 科学研究重点项目（2025AHGXZK30358）",
-      "name_en": "Anhui Provincial Department of Education, Key Project (2025AHGXZK30358)",
-      "meta_zh": "2025.12–2027.12 · 15万元",
-      "meta_en": "2025.12–2027.12 · 150K CNY",
-      "badge_zh": "主持",
-      "badge_en": "PI"
-    },
-    {
-      "group_zh": "主持项目",
-      "group_en": "As PI",
-      "name_zh": "青少年心理健康与危机智能干预安徽省哲学社会科学重点实验室 重大项目（SYS2024A06）",
-      "name_en": "Anhui Key Lab of Youth Mental Health Major Project (SYS2024A06)",
-      "meta_zh": "2024.03–2026.02 · 5万元",
-      "meta_en": "2024.03–2026.02 · 50K CNY",
       "badge_zh": "主持",
       "badge_en": "PI"
     },
@@ -202,10 +206,60 @@
     {
       "group_zh": "主持项目",
       "group_en": "As PI",
-      "name_zh": "中国科学技术大学 语音及语言信息处理国家工程研究中心 校内合作课题（ZY2350000066）",
-      "name_en": "USTC National Engineering Research Center of Speech and Language Information Processing (ZY2350000066)",
-      "meta_zh": "2023.08–2025.07 · 35万元",
-      "meta_en": "2023.08–2025.07 · 350K CNY",
+      "name_zh": "安徽省教育厅 科学研究重点项目（2025AHGXZK30358）",
+      "name_en": "Anhui Provincial Department of Education, Key Project (2025AHGXZK30358)",
+      "meta_zh": "2025.12–2027.12 · 15万元",
+      "meta_en": "2025.12–2027.12 · 150K CNY",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "group_zh": "主持项目",
+      "group_en": "As PI",
+      "name_zh": "国家自然科学基金青年科学基金项目（32400919）",
+      "name_en": "NSFC Youth Science Fund (32400919)",
+      "meta_zh": "2025.01–2027.12 · 30万元",
+      "meta_en": "2025.01–2027.12 · 300K CNY",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "group_zh": "主持项目",
+      "group_en": "As PI",
+      "name_zh": "安徽省科学技术厅 青年项目（2408085QC081）",
+      "name_en": "Anhui Provincial Department of Science and Technology, Youth Project (2408085QC081)",
+      "meta_zh": "2024.09–2026.08 · 8万元",
+      "meta_en": "2024.09–2026.08 · 80K CNY",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "group_zh": "主持项目",
+      "group_en": "As PI",
+      "name_zh": "教育部人文社会科学研究青年基金（24YJCZH014）",
+      "name_en": "MOE Humanities & Social Sciences Youth Fund (24YJCZH014)",
+      "meta_zh": "2024.05–2027.03 · 8万元",
+      "meta_en": "2024.05–2027.03 · 80K CNY",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "group_zh": "主持项目",
+      "group_en": "As PI",
+      "name_zh": "青少年心理健康与危机智能干预安徽省哲学社会科学重点实验室 重大项目（SYS2024A06）",
+      "name_en": "Anhui Key Lab of Youth Mental Health Major Project (SYS2024A06)",
+      "meta_zh": "2024.03–2026.02 · 5万元",
+      "meta_en": "2024.03–2026.02 · 50K CNY",
+      "badge_zh": "主持",
+      "badge_en": "PI"
+    },
+    {
+      "group_zh": "主持项目",
+      "group_en": "As PI",
+      "name_zh": "中国科学技术大学 青年创新基金（WK2110000025）",
+      "name_en": "USTC Youth Innovation Fund (WK2110000025)",
+      "meta_zh": "2024.01–2025.07 · 5万元",
+      "meta_en": "2024.01–2025.07 · 50K CNY",
       "badge_zh": "主持",
       "badge_en": "PI"
     },
@@ -222,10 +276,10 @@
     {
       "group_zh": "主持项目",
       "group_en": "As PI",
-      "name_zh": "中国科学技术大学 青年创新基金（WK2110000025）",
-      "name_en": "USTC Youth Innovation Fund (WK2110000025)",
-      "meta_zh": "2024.01–2025.07 · 5万元",
-      "meta_en": "2024.01–2025.07 · 50K CNY",
+      "name_zh": "中国科学技术大学 语音及语言信息处理国家工程研究中心 校内合作课题（ZY2350000066）",
+      "name_en": "USTC National Engineering Research Center of Speech and Language Information Processing (ZY2350000066)",
+      "meta_zh": "2023.08–2025.07 · 35万元",
+      "meta_en": "2023.08–2025.07 · 350K CNY",
       "badge_zh": "主持",
       "badge_en": "PI"
     },
@@ -236,6 +290,36 @@
       "name_en": "USTC Sci-Tech & Humanities Enhancement Program",
       "meta_zh": "2023.07–2028.06 · 150万元",
       "meta_en": "2023.07–2028.06 · 1.5M CNY",
+      "badge_zh": "参与",
+      "badge_en": "Co-I"
+    },
+    {
+      "group_zh": "参与项目",
+      "group_en": "As Co-I",
+      "name_zh": "中国科学技术大学先进技术研究院 培育项目",
+      "name_en": "USTC Institute of Advanced Technology, Incubation Project",
+      "meta_zh": "2021.10–2023.09 · 50万元",
+      "meta_en": "2021.10–2023.09 · 500K CNY",
+      "badge_zh": "参与",
+      "badge_en": "Co-I"
+    },
+    {
+      "group_zh": "参与项目",
+      "group_en": "As Co-I",
+      "name_zh": "中国科学院 国际合作专项",
+      "name_en": "CAS International Cooperation Program",
+      "meta_zh": "2021.01–2023.12 · 75万元",
+      "meta_en": "2021.01–2023.12 · 750K CNY",
+      "badge_zh": "参与",
+      "badge_en": "Co-I"
+    },
+    {
+      "group_zh": "参与项目",
+      "group_en": "As Co-I",
+      "name_zh": "国家自然科学基金 青年科学基金项目（31800927）",
+      "name_en": "NSFC Youth Science Fund (31800927)",
+      "meta_zh": "2019.01–2021.12 · 25万元",
+      "meta_en": "2019.01–2021.12 · 250K CNY",
       "badge_zh": "参与",
       "badge_en": "Co-I"
     },
@@ -258,36 +342,6 @@
       "meta_en": "2015.01–2018.12 · 880K CNY",
       "badge_zh": "参与",
       "badge_en": "Co-I"
-    },
-    {
-      "group_zh": "参与项目",
-      "group_en": "As Co-I",
-      "name_zh": "国家自然科学基金 青年科学基金项目（31800927）",
-      "name_en": "NSFC Youth Science Fund (31800927)",
-      "meta_zh": "2019.01–2021.12 · 25万元",
-      "meta_en": "2019.01–2021.12 · 250K CNY",
-      "badge_zh": "参与",
-      "badge_en": "Co-I"
-    },
-    {
-      "group_zh": "参与项目",
-      "group_en": "As Co-I",
-      "name_zh": "中国科学院 国际合作专项",
-      "name_en": "CAS International Cooperation Program",
-      "meta_zh": "2021.01–2023.12 · 75万元",
-      "meta_en": "2021.01–2023.12 · 750K CNY",
-      "badge_zh": "参与",
-      "badge_en": "Co-I"
-    },
-    {
-      "group_zh": "参与项目",
-      "group_en": "As Co-I",
-      "name_zh": "中国科学技术大学先进技术研究院 培育项目",
-      "name_en": "USTC Institute of Advanced Technology, Incubation Project",
-      "meta_zh": "2021.10–2023.09 · 50万元",
-      "meta_en": "2021.10–2023.09 · 500K CNY",
-      "badge_zh": "参与",
-      "badge_en": "Co-I"
     }
   ],
   "pubs": [
@@ -297,8 +351,6 @@
       "title_en": "Parahippocampal Network Dysfunction Distinguishes Suicidal Ideation from Suicide Attempts in Adolescents with Major Depressive Disorder: A Cross-Sectional Resting-State fMRI Study",
       "journal": "BMC Psychiatry, 2026",
       "tag": "SCI",
-      "highlight_zh": "旁海马网络功能异常可区分青少年抑郁症患者的自杀意念与自杀未遂",
-      "highlight_en": "Parahippocampal network dysfunction distinguishes suicidal ideation from suicide attempts",
       "link": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-026-08609-6"
     },
     {
@@ -307,8 +359,6 @@
       "title_en": "Beyond technology: the dominance of affective factors in explaining speaking ability among Chinese learners using an online platform",
       "journal": "Frontiers in Psychology, 2026, 17: 1802635",
       "tag": "SSCI",
-      "highlight_zh": "在线学习情境下，情感因素比技术因素更能解释中国学习者的口语能力",
-      "highlight_en": "Affective factors dominate in explaining speaking ability on an online platform",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42137097/"
     },
     {
@@ -317,8 +367,6 @@
       "title_en": "Transcranial direct current stimulation restores addictive behavior via prefrontal-striatal circuit",
       "journal": "Molecular Psychiatry, 2026, 31(3): 1361-1371",
       "tag": "SCI Q1 Top",
-      "highlight_zh": "首次揭示 tDCS 经前额-纹状体环路修复成瘾行为",
-      "highlight_en": "First to show tDCS restores addiction via the prefrontal-striatal circuit",
       "link": "https://pubmed.ncbi.nlm.nih.gov/41136747/"
     },
     {
@@ -327,8 +375,6 @@
       "title_en": "The dorsomedial prefrontal cortex promotes self-control by inhibiting the egocentric perspective",
       "journal": "NeuroImage, 2024, 301: 120879",
       "tag": "SCI Q1 Top",
-      "highlight_zh": "背内侧前额叶通过抑制自我中心视角促进自控",
-      "highlight_en": "dmPFC promotes self-control by inhibiting the egocentric perspective",
       "link": "https://pubmed.ncbi.nlm.nih.gov/39369803/"
     },
     {
@@ -337,8 +383,6 @@
       "title_en": "Reduced loss aversion in value-based decision-making and edge-centric functional connectivity in patients with internet gaming disorder",
       "journal": "Journal of Behavioral Addictions, 2023, 12(2): 458-470",
       "tag": "SCI Q1",
-      "highlight_zh": "网络游戏成瘾患者损失厌恶降低与功能连接异常",
-      "highlight_en": "Reduced loss aversion and altered edge-centric connectivity in IGD",
       "link": "https://pubmed.ncbi.nlm.nih.gov/37209127/"
     },
     {
@@ -347,8 +391,6 @@
       "title_en": "Internet gaming disorder and tobacco use disorder share neural connectivity patterns between the subcortical and the motor network",
       "journal": "Human Brain Mapping, 2023, 44(6): 2607-2619",
       "tag": "SCI Q2 Top",
-      "highlight_zh": "游戏障碍与烟草使用障碍共享皮层下-运动网络连接模式",
-      "highlight_en": "Shared subcortical-motor connectivity in IGD and tobacco use disorder",
       "link": "https://pubmed.ncbi.nlm.nih.gov/36807959/"
     },
     {
@@ -357,8 +399,6 @@
       "title_en": "Altered white matter functional network in nicotine addiction",
       "journal": "Psychiatry Research, 2023, 321: 115073",
       "tag": "SCI Q2",
-      "highlight_zh": "尼古丁成瘾白质功能网络异常",
-      "highlight_en": "Altered white matter functional network in nicotine addiction",
       "link": "https://pubmed.ncbi.nlm.nih.gov/36716553/"
     },
     {
@@ -367,8 +407,6 @@
       "title_en": "The orbitofrontal cortex represents advantageous choice in the Iowa gambling task",
       "journal": "Human Brain Mapping, 2022, 43(12): 3840-3856",
       "tag": "SCI Q2 Top · Cover",
-      "highlight_zh": "眶额叶皮层表征爱荷华博弈任务中的优势选择（封面论文）",
-      "highlight_en": "OFC represents advantageous choice in the Iowa gambling task (Cover)",
       "link": "https://pubmed.ncbi.nlm.nih.gov/35476367/"
     },
     {
@@ -377,8 +415,6 @@
       "title_en": "Brain morphology, harm avoidance, and the severity of excessive internet use",
       "journal": "Human Brain Mapping, 2022, 43(10): 3176-3183",
       "tag": "SCI Q2 Top",
-      "highlight_zh": "脑形态、伤害回避与过度使用网络的严重程度",
-      "highlight_en": "Brain morphology, harm avoidance and the severity of excessive internet use",
       "link": "https://pubmed.ncbi.nlm.nih.gov/35332975/"
     },
     {
@@ -387,8 +423,6 @@
       "title_en": "Computed tomography radiomics-based prediction of microvascular invasion in hepatocellular carcinoma",
       "journal": "Frontiers in Medicine, 2022, 9: 819670",
       "tag": "SCI",
-      "highlight_zh": "基于 CT 影像组学预测肝细胞癌微血管侵犯",
-      "highlight_en": "CT radiomics predicts microvascular invasion in hepatocellular carcinoma",
       "link": "https://pubmed.ncbi.nlm.nih.gov/35402463/"
     },
     {
@@ -397,8 +431,6 @@
       "title_en": "Smoking related attention alteration in chronic obstructive pulmonary disease-smoking comorbidity",
       "journal": "BMC Pulmonary Medicine, 2022, 22(1): 182",
       "tag": "SCI",
-      "highlight_zh": "COPD-吸烟共病中吸烟相关注意改变",
-      "highlight_en": "Smoking-related attention alteration in COPD-smoking comorbidity",
       "link": "https://pubmed.ncbi.nlm.nih.gov/35524207/"
     },
     {
@@ -407,8 +439,6 @@
       "title_en": "Impulse control differentiates Internet gaming disorder from non-disordered but heavy Internet gaming use: Evidence from multiple behavioral and multimodal neuroimaging data",
       "journal": "Computers in Human Behavior, 2022, 130: 107184",
       "tag": "SSCI Q1 Top",
-      "highlight_zh": "冲动控制是区分游戏成瘾与重度玩家的关键",
-      "highlight_en": "Impulse control differentiates IGD from heavy use",
       "link": "https://www.sciencedirect.com/science/article/pii/S0747563222000061"
     },
     {
@@ -417,8 +447,6 @@
       "title_en": "Transforming brain signals related to value evaluation and self-control into behavioral choices",
       "journal": "Human Brain Mapping, 2019, 40(4): 1049-1061",
       "tag": "SCI Q2 Top",
-      "highlight_zh": "价值评估与自控相关脑信号转化为行为选择",
-      "highlight_en": "Brain signals of value evaluation and self-control guide choices",
       "link": "https://pubmed.ncbi.nlm.nih.gov/30593684/"
     }
   ],
@@ -461,12 +489,12 @@
     }
   ],
   "join": {
-    "slots_zh": "带教应用心理，中医，文化学，药学，医学影像学等相关专业研究生。",
-    "slots_en": "Supervises graduate students in Applied Psychology, TCM, Cultural Studies, Pharmacy, Medical Imaging and related fields.",
+    "slots_zh": "带教应用心理，中医，针灸推拿，药学，医学影像学等相关专业研究生。",
+    "slots_en": "Supervises graduate students in Applied Psychology, TCM, Acupuncture and Tuina, Pharmacy, Medical Imaging and related fields.",
     "req_zh": "欢迎对心理，神经科学，精神病机制，神经调控脑机接口，中医心理干预感兴趣的本科生加入课题组和报考课题组研究生。",
     "req_en": "Undergraduates interested in psychology, neuroscience, psychiatric mechanisms, neuromodulation and brain-computer interfaces, and TCM psychological intervention are welcome to join the lab or apply for graduate study.",
-    "process_zh": "邮件发送简历与研究兴趣 → 初步面谈 → 双向选择 → 进组培养",
-    "process_en": "Email your CV and research interests → Initial interview → Mutual selection → Join the lab"
+    "process_zh": "邮件发送简历与研究兴趣 → 初步面谈 → 进组培养",
+    "process_en": "Email your CV and research interests → Initial interview → Join the lab"
   },
   "contact": {
     "address_zh": "合肥市新站区龙子湖路350号 安徽中医药大学人文与国际教育交流学院389室",
@@ -532,13 +560,6 @@
           "date": "2026.09",
           "who": "刘沁馨",
           "who_en": "Qinxin Liu",
-          "what_zh": "推免至华东师范大学",
-          "what_en": "Recommended for postgraduate admission to East China Normal University"
-        },
-        {
-          "date": "2026.09",
-          "who": "俞宇菲",
-          "who_en": "Yufei Yu",
           "what_zh": "国家奖学金",
           "what_en": "National Scholarship"
         },
@@ -546,6 +567,13 @@
           "date": "2026.09",
           "who": "刘沁馨",
           "who_en": "Qinxin Liu",
+          "what_zh": "推免至华东师范大学",
+          "what_en": "Recommended for postgraduate admission to East China Normal University"
+        },
+        {
+          "date": "2026.09",
+          "who": "俞宇菲",
+          "who_en": "Yufei Yu",
           "what_zh": "国家奖学金",
           "what_en": "National Scholarship"
         },
@@ -558,15 +586,8 @@
         },
         {
           "date": "2026.07",
-          "who": "许卓恒",
-          "who_en": "Zhuoheng Xu",
-          "what_zh": "亚洲物质滥用研究会（AASAR）成瘾行为防治最佳研究生论文奖 三等奖",
-          "what_en": "Best Graduate Student Paper Award, Third Prize, AASAR"
-        },
-        {
-          "date": "2026.07",
-          "who": "唐晓艳",
-          "who_en": "Xiaoyan Tang",
+          "who": "毕司晨",
+          "who_en": "Sichen Bi",
           "what_zh": "亚洲物质滥用研究会（AASAR）成瘾行为防治最佳研究生论文奖 三等奖",
           "what_en": "Best Graduate Student Paper Award, Third Prize, AASAR"
         },
@@ -579,8 +600,15 @@
         },
         {
           "date": "2026.07",
-          "who": "毕司晨",
-          "who_en": "Sichen Bi",
+          "who": "唐晓艳",
+          "who_en": "Xiaoyan Tang",
+          "what_zh": "亚洲物质滥用研究会（AASAR）成瘾行为防治最佳研究生论文奖 三等奖",
+          "what_en": "Best Graduate Student Paper Award, Third Prize, AASAR"
+        },
+        {
+          "date": "2026.07",
+          "who": "许卓恒",
+          "who_en": "Zhuoheng Xu",
           "what_zh": "亚洲物质滥用研究会（AASAR）成瘾行为防治最佳研究生论文奖 三等奖",
           "what_en": "Best Graduate Student Paper Award, Third Prize, AASAR"
         },
@@ -602,29 +630,22 @@
           "date": "2026",
           "who": "俞宇菲",
           "who_en": "Yufei Yu",
-          "what_zh": "安徽中医药大学研究生国际学术交流活动资助",
-          "what_en": "AHTCM grant for graduate international academic exchange"
-        },
-        {
-          "date": "2026",
-          "who": "俞宇菲",
-          "who_en": "Yufei Yu",
           "what_zh": "第二届安徽省应用心理专业硕士技能竞赛 研究生应用心理方案/产品设计分赛 特等奖",
           "what_en": "Grand Prize, 2nd Anhui Professional Master's Skills Competition in Applied Psychology"
         },
         {
           "date": "2026",
-          "who": "刘沁馨、毕司晨、程子皓、唐晓艳、李欣悦",
-          "who_en": "Qinxin Liu, Sichen Bi, Zihao Cheng, Xiaoyan Tang, Xinyue Li",
-          "what_zh": "第三届安徽省高校心理学专业本科生创新创业论坛“本科生心理学产品设计”分论坛 三等奖",
-          "what_en": "Third Prize, 3rd Anhui Undergraduate Psychology Innovation Forum"
+          "who": "刘沁馨 等",
+          "who_en": "Qinxin Liu et al.",
+          "what_zh": "安徽中医药大学“挑战杯”大学生创业计划大赛 院赛一等奖",
+          "what_en": "First Prize, AHTCM 'Challenge Cup' Entrepreneurship Competition"
         },
         {
           "date": "2026",
-          "who": "孙思语",
-          "who_en": "Siyu Sun",
-          "what_zh": "第三届安徽省高校心理学专业本科生创新创业论坛“本科生心理学实验设计”分论坛 三等奖",
-          "what_en": "Third Prize, 3rd Anhui Undergraduate Psychology Innovation Forum"
+          "who": "俞宇菲 等",
+          "who_en": "Yufei Yu et al.",
+          "what_zh": "安徽中医药大学“挑战杯”大学生创业计划大赛 院赛一等奖",
+          "what_en": "First Prize, AHTCM 'Challenge Cup' Entrepreneurship Competition"
         },
         {
           "date": "2026",
@@ -642,24 +663,31 @@
         },
         {
           "date": "2026",
-          "who": "俞宇菲 等",
-          "who_en": "Yufei Yu et al.",
-          "what_zh": "安徽中医药大学“挑战杯”大学生创业计划大赛 院赛一等奖",
-          "what_en": "First Prize, AHTCM 'Challenge Cup' Entrepreneurship Competition"
+          "who": "刘沁馨、毕司晨、程子皓、唐晓艳、李欣悦",
+          "who_en": "Qinxin Liu, Sichen Bi, Zihao Cheng, Xiaoyan Tang, Xinyue Li",
+          "what_zh": "第三届安徽省高校心理学专业本科生创新创业论坛“本科生心理学产品设计”分论坛 三等奖",
+          "what_en": "Third Prize, 3rd Anhui Undergraduate Psychology Innovation Forum"
         },
         {
           "date": "2026",
-          "who": "刘沁馨 等",
-          "who_en": "Qinxin Liu et al.",
-          "what_zh": "安徽中医药大学“挑战杯”大学生创业计划大赛 院赛一等奖",
-          "what_en": "First Prize, AHTCM 'Challenge Cup' Entrepreneurship Competition"
+          "who": "孙思语",
+          "who_en": "Siyu Sun",
+          "what_zh": "第三届安徽省高校心理学专业本科生创新创业论坛“本科生心理学实验设计”分论坛 三等奖",
+          "what_en": "Third Prize, 3rd Anhui Undergraduate Psychology Innovation Forum"
+        },
+        {
+          "date": "2026",
+          "who": "俞宇菲",
+          "who_en": "Yufei Yu",
+          "what_zh": "安徽中医药大学研究生国际学术交流活动资助",
+          "what_en": "AHTCM grant for graduate international academic exchange"
         },
         {
           "date": "2025",
-          "who": "王静怡、周心如、焦智麟",
-          "who_en": "Jingyi Wang, Xinru Zhou, Zhilin Jiao",
-          "what_zh": "安徽省心理卫生协会学术年会心理科普微课与实践技能大赛 应用心理案例赛道三等奖",
-          "what_en": "Third Prize, Anhui Mental Health Association Annual Meeting"
+          "who": "俞宇菲",
+          "who_en": "Yufei Yu",
+          "what_zh": "安徽省中医药文化研究会学术年会论文 一等奖",
+          "what_en": "First Prize, Annual Meeting Paper Award, Anhui Association for TCM Culture Research"
         },
         {
           "date": "2025",
@@ -671,10 +699,10 @@
         },
         {
           "date": "2025",
-          "who": "俞宇菲",
-          "who_en": "Yufei Yu",
-          "what_zh": "安徽省中医药文化研究会学术年会论文 一等奖",
-          "what_en": "First Prize, Annual Meeting Paper Award, Anhui Association for TCM Culture Research"
+          "who": "王静怡、周心如、焦智麟",
+          "who_en": "Jingyi Wang, Xinru Zhou, Zhilin Jiao",
+          "what_zh": "安徽省心理卫生协会学术年会心理科普微课与实践技能大赛 应用心理案例赛道三等奖",
+          "what_en": "Third Prize, Anhui Mental Health Association Annual Meeting"
         }
       ]
     },
@@ -684,10 +712,10 @@
       "items": [
         {
           "date": "2026.08",
-          "who": "岳佳鹭",
-          "who_en": "Jialu Yue",
-          "what_zh": "第11届国际行为成瘾大会（ICBA，伊斯坦布尔）口头报告：Abnormal Functional Connectivity of the Right Inferior Frontal Gyrus Operculum: Exploring the Protective Neural Mechanisms in Excessive Online Gaming",
-          "what_en": "Oral presentation, the 11th International Conference on Behavioral Addictions (ICBA, Istanbul): Abnormal Functional Connectivity of the Right Inferior Frontal Gyrus Operculum — Exploring the Protective Neural Mechanisms in Excessive Online Gaming"
+          "who": "毕司晨",
+          "who_en": "Sichen Bi",
+          "what_zh": "第11届国际行为成瘾大会（ICBA，伊斯坦布尔）口头报告：Enhanced Inferior Frontal Gyrus Triangular Part Function as a Potential Protective Neural Marker in Heavy Internet Gamers Who Are Non-Dependent: An fMRI Neural Decoding Study",
+          "what_en": "Oral presentation, the 11th International Conference on Behavioral Addictions (ICBA, Istanbul): Enhanced Inferior Frontal Gyrus Triangular Part Function as a Potential Protective Neural Marker in Heavy Internet Gamers Who Are Non-Dependent — An fMRI Neural Decoding Study"
         },
         {
           "date": "2026.08",
@@ -698,10 +726,10 @@
         },
         {
           "date": "2026.08",
-          "who": "毕司晨",
-          "who_en": "Sichen Bi",
-          "what_zh": "第11届国际行为成瘾大会（ICBA，伊斯坦布尔）口头报告：Enhanced Inferior Frontal Gyrus Triangular Part Function as a Potential Protective Neural Marker in Heavy Internet Gamers Who Are Non-Dependent: An fMRI Neural Decoding Study",
-          "what_en": "Oral presentation, the 11th International Conference on Behavioral Addictions (ICBA, Istanbul): Enhanced Inferior Frontal Gyrus Triangular Part Function as a Potential Protective Neural Marker in Heavy Internet Gamers Who Are Non-Dependent — An fMRI Neural Decoding Study"
+          "who": "岳佳鹭",
+          "who_en": "Jialu Yue",
+          "what_zh": "第11届国际行为成瘾大会（ICBA，伊斯坦布尔）口头报告：Abnormal Functional Connectivity of the Right Inferior Frontal Gyrus Operculum: Exploring the Protective Neural Mechanisms in Excessive Online Gaming",
+          "what_en": "Oral presentation, the 11th International Conference on Behavioral Addictions (ICBA, Istanbul): Abnormal Functional Connectivity of the Right Inferior Frontal Gyrus Operculum — Exploring the Protective Neural Mechanisms in Excessive Online Gaming"
         },
         {
           "date": "2026.07",
@@ -709,6 +737,20 @@
           "who_en": "Sichen Bi",
           "what_zh": "亚洲药物滥用研究与成瘾行为防治学会成瘾心理治疗与神经调控专业委员会学术年会（合肥）口头报告：右侧额下回三角部功能增强作为非成瘾性重度游戏玩家的潜在保护性神经标记：一项 fMRI 神经解码研究",
           "what_en": "Oral presentation, Annual Meeting of the Addiction Psychotherapy and Neuromodulation Committee, Asian Association for Substance Abuse Research (Hefei): Enhanced right inferior frontal gyrus triangular part function as a protective neural marker in non-dependent heavy gamers — an fMRI neural decoding study"
+        },
+        {
+          "date": "2026.07",
+          "who": "孙思语",
+          "who_en": "Siyu Sun",
+          "what_zh": "亚洲药物滥用研究与成瘾行为防治学会成瘾心理治疗与神经调控专业委员会学术年会（合肥）口头报告：Impaired Subgenual Anterior Cingulate Cortex–Nucleus Accumbens Connectivity During Risk-Based Decisions in Internet Gaming Disorder",
+          "what_en": "Oral presentation, Annual Meeting of the Addiction Psychotherapy and Neuromodulation Committee, Asian Association for Substance Abuse Research (Hefei): Impaired Subgenual Anterior Cingulate Cortex–Nucleus Accumbens Connectivity During Risk-Based Decisions in Internet Gaming Disorder"
+        },
+        {
+          "date": "2026.07",
+          "who": "唐晓艳",
+          "who_en": "Xiaoyan Tang",
+          "what_zh": "亚洲药物滥用研究与成瘾行为防治学会成瘾心理治疗与神经调控专业委员会学术年会（合肥）口头报告：Altered Resting-State Functional Connectivity Between the Subgenual Anterior Cingulate and Nucleus Accumbens Underlying Impulsivity in Internet Gaming Disorder",
+          "what_en": "Oral presentation, Annual Meeting of the Addiction Psychotherapy and Neuromodulation Committee, Asian Association for Substance Abuse Research (Hefei): Altered Resting-State Functional Connectivity Between the Subgenual Anterior Cingulate and Nucleus Accumbens Underlying Impulsivity in Internet Gaming Disorder"
         },
         {
           "date": "2026.07",
@@ -723,20 +765,6 @@
           "who_en": "Yufei Yu",
           "what_zh": "亚洲药物滥用研究与成瘾行为防治学会成瘾心理治疗与神经调控专业委员会学术年会（合肥）口头报告：Altered Orbitofrontal Cortex Connectivity: A Neural Basis of Internet Gaming Disorder",
           "what_en": "Oral presentation, Annual Meeting of the Addiction Psychotherapy and Neuromodulation Committee, Asian Association for Substance Abuse Research (Hefei): Altered Orbitofrontal Cortex Connectivity — A Neural Basis of Internet Gaming Disorder"
-        },
-        {
-          "date": "2026.07",
-          "who": "唐晓艳",
-          "who_en": "Xiaoyan Tang",
-          "what_zh": "亚洲药物滥用研究与成瘾行为防治学会成瘾心理治疗与神经调控专业委员会学术年会（合肥）口头报告：Altered Resting-State Functional Connectivity Between the Subgenual Anterior Cingulate and Nucleus Accumbens Underlying Impulsivity in Internet Gaming Disorder",
-          "what_en": "Oral presentation, Annual Meeting of the Addiction Psychotherapy and Neuromodulation Committee, Asian Association for Substance Abuse Research (Hefei): Altered Resting-State Functional Connectivity Between the Subgenual Anterior Cingulate and Nucleus Accumbens Underlying Impulsivity in Internet Gaming Disorder"
-        },
-        {
-          "date": "2026.07",
-          "who": "孙思语",
-          "who_en": "Siyu Sun",
-          "what_zh": "亚洲药物滥用研究与成瘾行为防治学会成瘾心理治疗与神经调控专业委员会学术年会（合肥）口头报告：Impaired Subgenual Anterior Cingulate Cortex–Nucleus Accumbens Connectivity During Risk-Based Decisions in Internet Gaming Disorder",
-          "what_en": "Oral presentation, Annual Meeting of the Addiction Psychotherapy and Neuromodulation Committee, Asian Association for Substance Abuse Research (Hefei): Impaired Subgenual Anterior Cingulate Cortex–Nucleus Accumbens Connectivity During Risk-Based Decisions in Internet Gaming Disorder"
         }
       ]
     },
@@ -746,15 +774,15 @@
       "items": [
         {
           "date": "2026.06",
-          "who": "俞宇菲",
-          "who_en": "Yufei Yu",
+          "who": "刘沁馨",
+          "who_en": "Qinxin Liu",
           "what_zh": "国家级大学生创新创业训练计划项目",
           "what_en": "National-level College Students' Innovation and Entrepreneurship Training Program"
         },
         {
           "date": "2026.06",
-          "who": "刘沁馨",
-          "who_en": "Qinxin Liu",
+          "who": "俞宇菲",
+          "who_en": "Yufei Yu",
           "what_zh": "国家级大学生创新创业训练计划项目",
           "what_en": "National-level College Students' Innovation and Entrepreneurship Training Program"
         },
@@ -767,15 +795,22 @@
         },
         {
           "date": "2026.06",
-          "who": "叶子菡",
-          "who_en": "Zihan Ye",
+          "who": "陈嘉乐",
+          "who_en": "Jiale Chen",
           "what_zh": "校级大学生创新创业训练计划项目",
           "what_en": "University-level College Students' Innovation and Entrepreneurship Training Program"
         },
         {
           "date": "2026.06",
-          "who": "周心如",
-          "who_en": "Xinru Zhou",
+          "who": "杨帅",
+          "who_en": "Shuai Yang",
+          "what_zh": "校级大学生创新创业训练计划项目",
+          "what_en": "University-level College Students' Innovation and Entrepreneurship Training Program"
+        },
+        {
+          "date": "2026.06",
+          "who": "叶子菡",
+          "who_en": "Zihan Ye",
           "what_zh": "校级大学生创新创业训练计划项目",
           "what_en": "University-level College Students' Innovation and Entrepreneurship Training Program"
         },
@@ -788,15 +823,8 @@
         },
         {
           "date": "2026.06",
-          "who": "陈嘉乐",
-          "who_en": "Jiale Chen",
-          "what_zh": "校级大学生创新创业训练计划项目",
-          "what_en": "University-level College Students' Innovation and Entrepreneurship Training Program"
-        },
-        {
-          "date": "2026.06",
-          "who": "杨帅",
-          "who_en": "Shuai Yang",
+          "who": "周心如",
+          "who_en": "Xinru Zhou",
           "what_zh": "校级大学生创新创业训练计划项目",
           "what_en": "University-level College Students' Innovation and Entrepreneurship Training Program"
         }
