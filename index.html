@@ -167,7 +167,7 @@ html.is-scrolling .nav{-webkit-backdrop-filter:none;backdrop-filter:none;backgro
   border:1px solid rgba(214,178,116,.48);border-radius:var(--r-pill);color:#E2BE83;
   background:linear-gradient(180deg,rgba(206,168,106,.22),rgba(180,142,86,.10));
   box-shadow:inset 0 1px 0 rgba(255,244,222,.22), 0 8px 20px -12px rgba(0,0,0,.6);
-  opacity:0;animation:fadeUp .5s var(--ease) .42s forwards;transition:all var(--dur-2) var(--ease);}
+  opacity:0;animation:fadeUp .9s var(--ease) .78s forwards;transition:all var(--dur-2) var(--ease);}
 .hero-tags span:hover{border-color:rgba(238,208,152,.75);color:#F2D9A6;transform:translateY(-1px);}
 
 .hero-right .lbl{color:var(--gold-hi);font-size:12px;letter-spacing:.09em;text-transform:uppercase;margin-bottom:6px;}
@@ -1463,7 +1463,8 @@ body{background:#06120D;}                /* 页面底色与首屏一致，任何
 
 /* ===== 地址/联系：从右栏移出，改为左栏下方一行（与关键词同组） ===== */
 
-.hero-contact{display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;margin-top:26px;
+.hero-contact{opacity:0;animation:fadeUp 1s var(--ease) .85s forwards;
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;margin-top:26px;
   font-size:13px;color:rgba(255,255,255,.66);}
 .hero-contact .hc{display:inline-flex;align-items:center;gap:7px;}
 .hero-contact .hr-ic{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.7;
@@ -1585,6 +1586,20 @@ body{background:#06120D;}                /* 页面底色与首屏一致，任何
   .brand-dot,.scroll-hint .line{animation:none !important;}
   .hero-deco{opacity:.8;}
 }
+
+/* ============ 首屏动画门控：等页面初始化完成再起跑，避免被启动阻塞吃掉开头几帧 ============ */
+html:not(.hero-go) .hero-eyebrow,
+html:not(.hero-go) .hero h1,
+html:not(.hero-go) .hero .en,
+html:not(.hero-go) .hero .slogan,
+html:not(.hero-go) .hero .dept,
+html:not(.hero-go) .hero-tags span,
+html:not(.hero-go) .hero-contact,
+html:not(.hero-go) .hero-right,
+html:not(.hero-go) .scroll-hint,
+html:not(.hero-go) .hero-deco .ring-dash,
+html:not(.hero-go) .hero-deco .ring-dash2,
+html:not(.hero-go) .hero-deco .node{animation-play-state:paused !important;}
 </style>
 
 
@@ -2012,6 +2027,39 @@ function render(){
       </div>
     </div>`;}).join('');
 
+/* 首屏动画门控：初始化完成后的下一帧再放行动画（兜底 700ms 必定放行） */
+(function(){
+  var done=false;
+  function go(){ if(done) return; done=true; document.documentElement.classList.add('hero-go'); }
+  try{
+    requestAnimationFrame(function(){ requestAnimationFrame(go); });
+  }catch(e){}
+  setTimeout(go,700);
+})();
+
+  (function(){
+    var hc=document.getElementById('hero-contact');
+    if(hc && !hc.dataset.built){
+      hc.dataset.built='1';
+      hc.innerHTML='<span class="hc"><svg class="hr-ic" aria-hidden="true"><use href="#i-pin"/></svg>'
+        +esc(zh?d.contact.address_zh:d.contact.address_en)+'</span>'
+        +'<span class="hc"><svg class="hr-ic" aria-hidden="true"><use href="#i-mail"/></svg>'
+        +'<span id="c-emails-hero" onclick="copyEmail()" title="点击复制邮箱">'+esc(d.contact.email1)+'</span></span>';
+    }
+  })();
+
+  if(!window.__belowOnce){ window.__belowOnce=1; setTimeout(renderBelow,1750); }
+  else { renderBelow(); }
+}
+
+function renderBelow(){
+  try{
+  /* 独立函数：自带原来在 render 内声明的局部变量（拆分后作用域不再共享） */
+  const d=DATA, zh=LANG==='zh';
+  const _coarse=(window.matchMedia&&window.matchMedia('(hover:none),(pointer:coarse)').matches);
+  const _rot='<svg class="ic"><use href="#i-rotate"/></svg>';
+  const _hintF=zh?'翻转查看':(_coarse?'Tap to flip':'Flip');
+
   document.getElementById('pub-list').innerHTML=d.pubs.map((p,i)=>`
     <div class="pub reveal">
       <div class="pub-num serif">${String(i+1).padStart(2,'0')}</div>
@@ -2180,21 +2228,13 @@ refreshMore();
     var v=document.getElementById('j3'); if(v) v.style.display='none';
   })();
 
-  (function(){
-    var hc=document.getElementById('hero-contact');
-    if(hc && !hc.dataset.built){
-      hc.dataset.built='1';
-      hc.innerHTML='<span class="hc"><svg class="hr-ic" aria-hidden="true"><use href="#i-pin"/></svg>'
-        +esc(zh?d.contact.address_zh:d.contact.address_en)+'</span>'
-        +'<span class="hc"><svg class="hr-ic" aria-hidden="true"><use href="#i-mail"/></svg>'
-        +'<span id="c-emails-hero" onclick="copyEmail()" title="点击复制邮箱">'+esc(d.contact.email1)+'</span></span>';
-    }
-  })();
   document.getElementById('c-addr').innerHTML='<svg class="ic"><use href="#i-pin"/></svg> '+(zh?d.contact.address_zh:d.contact.address_en);
   document.getElementById('c-emails').textContent=d.contact.email1;
 
   setTimeout(initReveal,40);
   setTimeout(initFlip,60);
+
+  }catch(e){ console.warn('renderBelow error:',e); }
 }
 
 function toggleLang(){LANG=LANG==='zh'?'en':'zh';
