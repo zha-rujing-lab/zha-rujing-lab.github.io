@@ -1553,6 +1553,30 @@ body{background:#06120D;}                /* 页面底色与首屏一致，任何
   .hero-deco{width:86vw !important;aspect-ratio:1;top:2% !important;right:-20% !important;
     opacity:.66 !important;transform:none !important;}
 }
+
+
+/* ============ 折叠：默认只显示一部分，按需展开 ============ */
+.members.is-collapsed > *:nth-child(n+13){display:none;}
+.pub-list.is-collapsed > *:nth-child(n+6){display:none;}
+.more-row{display:flex;justify-content:center;margin-top:18px;}
+.more-btn{font:inherit;font-size:13px;letter-spacing:.04em;cursor:pointer;
+  padding:10px 22px;border-radius:999px;color:var(--gold-hi);
+  background:rgba(255,255,255,.04);border:1px solid rgba(232,204,140,.35);
+  transition:background .25s var(--ease),border-color .25s var(--ease),transform .25s var(--ease);}
+.more-btn:hover{background:rgba(232,204,140,.10);border-color:rgba(232,204,140,.6);transform:translateY(-1px);}
+.more-btn:active{transform:translateY(0);}
+
+/* ============ 手机端：成员两列排布，更紧凑 ============ */
+@media (max-width:900px){
+  .members{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important;}
+  .member{padding:16px 10px !important;}
+  .m-photo{width:56px !important;height:56px !important;margin:0 auto 10px !important;}
+  .m-name{font-size:14px !important;}
+  .m-role{font-size:11.5px !important;}
+  .m-back-tag{font-size:10.5px !important;margin-bottom:6px !important;}
+  .m-back-text{font-size:11px !important;line-height:1.62 !important;}
+  .m-back-text{-webkit-line-clamp:8 !important;}
+}
 </style>
 
 
@@ -1758,7 +1782,8 @@ window.__BUILD__='20261005-1920';
     <span class="sec-sub">Selected Publications</span>
   </div>
   <div class="pub-legend reveal" id="pub-legend"></div>
-  <div class="pub-list" id="pub-list"></div>
+  <div class="pub-list is-collapsed" id="pub-list"></div>
+    <div class="more-row"><button class="more-btn" id="pub-more" type="button"></button></div>
 </div>
 
 <div class="container" id="funding">
@@ -1796,7 +1821,8 @@ window.__BUILD__='20261005-1920';
     <h2 class="sec-title" data-zh="课题组成员" data-en="Members">课题组成员</h2>
     <span class="sec-sub">Lab Members</span>
   </div>
-  <div class="members" id="members-grid"></div>
+  <div class="members is-collapsed" id="members-grid"></div>
+  <div class="more-row"><button class="more-btn" id="members-more" type="button"></button></div>
 </div>
 
 <div class="container" id="contact">
@@ -2060,6 +2086,38 @@ function render(){
 
   function visLen(t){let n=0;for(const c of String(t||'')){n+=/[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef]/.test(c)?1:0.55;}return n;}
   var __avIO=null;
+  
+/* ===== 折叠控制：成员 / 论文默认收起，按需展开 ===== */
+function setupMore(gridId,btnId,limit,unit){
+  var g=document.getElementById(gridId), b=document.getElementById(btnId);
+  if(!g||!b) return;
+  b.onclick=function(){
+    g.classList.toggle('is-collapsed');
+    refreshMore();
+    if(!g.classList.contains('is-collapsed')){
+      try{ g.scrollIntoView({block:'nearest',behavior:'smooth'}); }catch(e){}
+    }
+  };
+  window.__morePairs=window.__morePairs||[];
+  window.__morePairs.push({g:g,b:b,limit:limit,unit:unit});
+}
+function refreshMore(){
+  var zh=(typeof LANG!=='undefined'?LANG:'zh')==='zh';
+  (window.__morePairs||[]).forEach(function(p){
+    var n=p.g.children.length, open=!p.g.classList.contains('is-collapsed');
+    p.b.style.display=(n>p.limit)?'':'none';
+    if(open){
+      p.b.textContent= zh?'收起':'Show less';
+    }else{
+      var u = p.unit==='pub' ? (zh?'篇论文':'publications') : (zh?'位成员':'members');
+      p.b.textContent= zh ? ('展开全部 '+n+' '+u) : ('Show all '+n+' '+u);
+    }
+  });
+}
+setupMore('members-grid','members-more',12,'member');
+setupMore('pub-list','pub-more',5,'pub');
+refreshMore();
+
   function lazyAvatars(){
     var els=document.querySelectorAll('.m-photo[data-bg]');
     if(!els.length) return;
@@ -2104,6 +2162,7 @@ function render(){
     </div>`;
   }).join('');
   lazyAvatars();
+  try{ refreshMore(); }catch(e){}
 
   document.getElementById('j1').textContent=zh?d.join.slots_zh:d.join.slots_en;
   document.getElementById('j2').textContent=zh?d.join.req_zh:d.join.req_en;
@@ -2429,7 +2488,6 @@ loadData();
   var scenes=[];
   if(fx)scenes.push(Scene(fx,16,1));
   if(hc)scenes.push(Scene(hc,6,.85));    /* 极简：偶见几颗缓缓上升的小点 */
-  scenes.forEach(function(s){s.init();});
   var last=performance.now(), hidden=false, lastDraw=0, STEP=1000/30;   /* 浮尘很慢，30fps 足够，开销减半 */
   document.addEventListener('visibilitychange',function(){hidden=document.hidden;last=performance.now();});
   var rt;
@@ -2448,14 +2506,22 @@ loadData();
     }
     requestAnimationFrame(frame);
   }
-  requestAnimationFrame(frame);
+  function __boot(){
+    scenes.forEach(function(s){s.init();});
+    last=performance.now();
+    requestAnimationFrame(frame);
+  }
+  var __delay=1400;   /* 等首屏文字依次浮上来之后再启动浮尘，避免抢主线程 */
+  if(document.readyState==='complete'){ setTimeout(__boot,__delay); }
+  else { window.addEventListener('load',function(){ setTimeout(__boot,__delay); }); }
  }catch(e){ /* 静默降级：无粒子不影响内容 */ }
 })();
 
 /* ===== 质感升级：指针光斑 + hero 视差(可整体删除回退) ===== */
 (function(){
   var sel='.card:not(.flip-face),.pi,.member:not(.flip-face)';
-  [].forEach.call(document.querySelectorAll(sel),function(el){
+  function __bindGlow(){ [].forEach.call(document.querySelectorAll(sel),function(el){
+    if(el.__glow) return; el.__glow=1;
     var raf=0,mx=0,my=0;
     el.addEventListener('mousemove',function(e){
       var r=el.getBoundingClientRect();
@@ -2467,7 +2533,9 @@ loadData();
         el.style.setProperty('--my',my.toFixed(1)+'%');
       });
     },{passive:true});
-  });
+  }); }
+  if(window.requestIdleCallback){ requestIdleCallback(__bindGlow,{timeout:2500}); }
+  else { setTimeout(__bindGlow,1600); }
   var hi=document.querySelector('.hero-in');
   function par(){
     if(window.innerWidth<900){ if(hi){hi.style.transform='';hi.style.opacity='';} return; }  /* 手机不做视差 */
