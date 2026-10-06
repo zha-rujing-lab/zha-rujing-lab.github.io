@@ -1577,6 +1577,14 @@ body{background:#06120D;}                /* 页面底色与首屏一致，任何
   .m-back-text{font-size:11px !important;line-height:1.62 !important;}
   .m-back-text{-webkit-line-clamp:8 !important;}
 }
+
+/* ============ 手机端：停掉首屏装饰性循环动画，省 GPU ============ */
+@media (max-width:900px){
+  .hero-deco .ring-dash,.hero-deco .ring-dash2,.hero-deco .node,
+  .hero-deco .tick-ring,.hero-deco .halo,
+  .brand-dot,.scroll-hint .line{animation:none !important;}
+  .hero-deco{opacity:.8;}
+}
 </style>
 
 
@@ -2613,6 +2621,38 @@ loadData();
     }catch(e){}
   }
   setTimeout(fix,1600); setTimeout(fix,3000);
+})();
+
+/* ===== 性能：只让「正在视口内」的装饰动画运行，其余暂停 =====
+   页面同时挂 19 个无限动画会让手机 GPU 每帧重绘，滚动发涩。
+   用 IntersectionObserver 把离开视口的动画 animation-play-state 设为 paused。 */
+(function(){
+  if(!('IntersectionObserver' in window)) return;
+  function boot(){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        e.target.style.animationPlayState = e.isIntersecting ? '' : 'paused';
+      });
+    },{rootMargin:'150px 0px'});
+    var seen=[];
+    function scan(){
+      try{
+        document.getAnimations().forEach(function(a){
+          if(a.playState!=='running') return;
+          var el=a.effect&&a.effect.target;
+          if(!el||seen.indexOf(el)>=0) return;
+          var tm=a.effect.getTiming?a.effect.getTiming():null;
+          if(!tm||tm.iterations!==Infinity) return;   /* 只管无限循环的 */
+          seen.push(el); io.observe(el);
+        });
+      }catch(e){}
+    }
+    scan();
+    setTimeout(scan,2500);   /* 首屏动画启动后再扫一遍 */
+    window.__tameAnim=scan;
+  }
+  if(document.readyState==='complete') setTimeout(boot,1200);
+  else window.addEventListener('load',function(){ setTimeout(boot,1200); });
 })();
 </script>
 </body></html>
