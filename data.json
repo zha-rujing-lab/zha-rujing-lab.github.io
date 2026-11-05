@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastUpdated": "2026-11-04",
-  "dataVersion": 33
+  "lastUpdated": "2026-11-05",
+  "dataVersion": 34
  },
  "brand": {
   "slogan_zh": "以中医智慧，解心灵之结",
@@ -425,6 +425,16 @@
    "research_zh": "经皮耳穴迷走神经刺激联合时间干涉经颅交流电刺激干预注意力缺陷障碍执行能力的研究",
    "research_en": "taVNS combined with temporal-interference tACS (TI-tACS) for executive function in ADHD",
    "photo": "images/members/guo-ailin.jpg",
+   "grade": "2026"
+  },
+  {
+   "name": "姚锦程",
+   "name_en": "Jincheng Yao",
+   "role_zh": "本科生",
+   "role_en": "Undergraduate",
+   "research_zh": "手机成瘾者对手机线索的注意偏向及耳穴干预效果：一项 ERP 研究",
+   "research_en": "Attentional bias to phone-related cues in smartphone addiction and the effects of auricular acupoint stimulation: an ERP study",
+   "photo": "images/members/yao-jincheng.jpg",
    "grade": "2026"
   },
   {
