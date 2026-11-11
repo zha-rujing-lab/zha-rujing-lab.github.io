@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lastUpdated": "2026-11-05",
-  "dataVersion": 34
+  "lastUpdated": "2026-11-11",
+  "dataVersion": 35
  },
  "brand": {
   "slogan_zh": "以中医智慧，解心灵之结",
@@ -395,6 +395,16 @@
    "research_zh": "耳穴刺激和双靶点深部脑调控提升网络游戏成瘾者自控能力的机制与应用研究",
    "research_en": "Auricular stimulation and dual-target deep-brain neuromodulation for improving self-control in internet gaming disorder",
    "photo": "images/members/yang-shuai.jpg",
+   "grade": "2025"
+  },
+  {
+   "name": "喻云燕",
+   "name_en": "Yunyan Yu",
+   "role_zh": "本科生",
+   "role_en": "Undergraduate",
+   "research_zh": "应用心理学",
+   "research_en": "Applied Psychology",
+   "photo": "images/members/yu-yunyan.jpg",
    "grade": "2025"
   },
   {
